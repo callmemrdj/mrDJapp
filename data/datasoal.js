@@ -369,7 +369,7 @@ const kosakataData = {
     { kanji: '国際交流', hiragana: 'こくさいこうりゅう', romaji: 'kokusaikouryuu', arti: 'pertukaran internasional' },
   ],
   kataSifat: [
-   { kanji: '色', hiragana: 'いろ', romaji: 'iro', arti: 'warna' },
+    { kanji: '色', hiragana: 'いろ', romaji: 'iro', arti: 'warna' },
     { kanji: '赤い', hiragana: 'あかい', romaji: 'akai', arti: 'merah' },
     { kanji: '青い', hiragana: 'あおい', romaji: 'aoi', arti: 'biru' },
     { kanji: '黒い', hiragana: 'くろい', romaji: 'kuroi', arti: 'hitam' },
@@ -1154,7 +1154,33 @@ const tatabahasaData = [
       { jp: '雨が降っていますから、傘が必要です。', rj: 'ame ga futte imasu kara, kasa ga hitsuyou desu.', id: 'Karena hujan turun, saya membutuhkan payung.' },
     ],
   },
-
+{
+    pola: '～たら',
+    explain: 'Berarti "kalau". Penggunaannya: <br>1. Klausa sebelum ～たら sebagai syarat. biasanya selesai terjadi dulu; selesai dilakukan/terjadi dulu, baru menyusul klausa 2 terjadi/dilakukan. Boleh diikuti ajakan/perintah. <br/>2. Memiliki nuansa makna "setelah...lalu..."',
+    contoh: [
+      { jp: '日本に着いたら、すぐ連絡してください。', rj: 'Nihon ni tsuitara, sugu renraku shite kudasai', id: 'Kalau sampai di jepang, segera hubungi saya' },
+      { jp: 'お金がたくさんあったら、車を買います', rj: 'Okane ga takusan attara, kuruma o kaimasu', id: 'Kalau banyak uang saya mau belu mobil' },
+      { jp: 'あの靴は値段がやくすかったら、その店で買いますよ', rj: 'Ano kutsu wa nedan ga yasukattara, sono mise de kaimasu yo', id: 'Kalau sepatu itu harganya mudah, saya mau beli di toko itu' },
+    ],
+},
+   {
+    pola: '～ば',
+    explain: 'Fokus pada kondisi/syarat logis dan sudah umum difahami semua orang, secara alamiah bahwa kalau demikian maka biasanya terjadi begitu. Memberikan nuansa "hanya jika syarat ini terpenuhi, maka...". Umumnya tidak diikuti perintah/ajakan jika predikat di klausa pertama berupa kata kerja aksi (kecuali predikatnya kata sifat/keberadaan). Sering muncul dalam peribahasa atau situasi formal.',
+    contoh: [
+      { jp: '薬を飲めば、熱が下がります。', rj: 'Kusuri o nomeba, netsu ga sagarimasu', id: 'Kalau minum obat panasnya turun' },
+      { jp: '春になれば、桜が咲きます', rj: 'Haru ni nareba, sakura ga sakimasu', id: 'Kalau memasuki musim semi, Sakura berkebang' },
+      { jp: '天気が良ければ、冨士山がここからはっきり見えます。', rj: 'Tenki ga yokereba, Fujiyama ga koko kara hakkiri miemasu', id: 'Kalau cuacanya bagus, Gunung Fuji terlihat jelas dari sini.' },
+    ],
+},
+   {
+    pola: '～と',
+    explain: 'Bermakna: "kalau". Sudah merupakan fakta adanya. Jika klausa sebelum ~と terjadi atau dilakukan, maka klausa setelahnya pasti terjadi sesuai fakta.',
+    contoh: [
+      { jp: 'この道を百メートルまっすぐ行くと、駅があります。', rj: 'Kono michi o 100 metoru massugu iku to, eki ga arimasu', id: 'Kalau terus lurus menyusuri jalan ini, maka akan ada stasiun.' },
+      { jp: '左に曲がると、郵便局が見えます。', rj: 'hidari ni magaru to yuubinkyoku ga miemasu', id: 'Kalau belok ke kiri, maka akan terlihat kantor pos.' },
+      { jp: 'このボタンを押すと、機械が動きます', rj: 'Kono botan o osu to, kikai ga ugokimasu', id: 'Kalau menekan tombol ini, mesin akan bergerak.' },
+    ],
+},
   {
     pola: '～なら',
     explain:
@@ -1169,6 +1195,87 @@ const tatabahasaData = [
       },
     ],
   },
+   {
+    pola: '～ばあい',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: '～と思う',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: '～と思っている',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: '～ようと思う',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: '～ようと思っている',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: '～ような',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: '～ように',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: '～ようにする',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
+   {
+    pola: 'ようになる',
+    explain: 'sedang edit...',
+    contoh: [
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+      { jp: '', rj: '', id: '' },
+    ],
+},
 ];
 
 /* ======================================================
@@ -1430,7 +1537,6 @@ const flashcardData = {
 { kanji: '軽い', kunyomi:  'かるい', romaji: 'karui', arti: 'ringan' },
 { kanji: '重い', kunyomi:  'おもい', romaji: 'omoi', arti: 'berat' },
 { kanji: 'ひどい', kunyomi:  'ひどい', romaji: 'hidoi', arti: 'parah/buruk' },
-{ kanji: 'かっこいい', kunyomi:  'かっこいい', romaji: 'kakkoiii', arti: 'keren' },
 { kanji: '正しい', kunyomi:  'ただしい', romaji: 'tadashii', arti: 'benar' },
 { kanji: '間違い', kunyomi:  'まちがい', romaji: 'machigai', arti: 'salah' },
 { kanji: '正直', kunyomi:  'しょうじき（な）', romaji: 'shoujiki(na)', arti: 'jujur' },
