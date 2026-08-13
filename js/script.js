@@ -31,9 +31,9 @@ function goTo(page) {
     nav.querySelectorAll('.nav-item').forEach((n) => n.classList.toggle('active', n.dataset.page === page));
   }
 
-  if (page === 'kosakata') initKosakata();
-  if (page === 'tatabahasa') initTatabahasa();
-  if (page === 'flashcard') initFlashcard();
+  if (page === 'kosakata') (initKosakata(), endQuiz());
+  if (page === 'tatabahasa') (initTatabahasa(),endQuiz());
+  if (page === 'flashcard') (initFlashcard(),endQuiz());
   if (page === 'quiz') initQuiz();
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -75,6 +75,7 @@ const tabLabels = {
 };
 
 function initKosakata() {
+
   const tabBar = document.getElementById('kosakataTabs');
   tabBar.innerHTML = '';
   for (const [key, label] of Object.entries(tabLabels)) {
@@ -212,6 +213,7 @@ function toggleGrammar(idx) {
    FLASHCARD
    ====================================================== */
 function initFlashcard() {
+
   updateFcStatus();
   if (!fcCurrentCard) {
     document.getElementById('fcEmpty').style.display = 'block';
