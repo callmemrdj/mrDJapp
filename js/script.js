@@ -12,7 +12,7 @@ let quizScore = 0;
 let quizTimer = null;
 let quizTimeLeft = 30;
 const QUIZ_TIME = 30;
-const QUIZ_COUNT = 60;
+const QUIZ_COUNT = 50;
 
 /* ======================================================
    NAVIGASI
