@@ -1382,7 +1382,7 @@ const flashcardData = {
     { kanji: '降りる', kunyomi: 'おりる ', arti: 'Turun (kendaraan)', contoh: '降りる' },
     { kanji: '用いる', kunyomi: 'もちいる ', arti: 'Menggunakan / Memanfaatkan', contoh: '用いる' },
     { kanji: '落ちる', kunyomi: 'おちる ', arti: 'Jatuh', contoh: '落ちる' },
-    { kanji: '信じる', kunyomi: 'さびる ', arti: 'Berkarat', contoh: '信じる' },
+    { kanji: '信じる', kunyomi: 'しんじる ', arti: 'Percaya', contoh: '信じる' },
     { kanji: '過ぎる', kunyomi: 'すぎる ', arti: 'Melewati / Berlebihan', contoh: '過ぎる' },
     { kanji: '生きる', kunyomi: 'いきる ', arti: 'Hidup', contoh: '生きる' },
     { kanji: '煮る', kunyomi: 'にる ', arti: 'Merebus / Memasak', contoh: '煮る' },
