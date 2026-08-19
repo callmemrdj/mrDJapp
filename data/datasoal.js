@@ -955,6 +955,24 @@ const tatabahasaData = [
       { jp: '母はジャガイモの皮をむいている時、指を切ってしまった。', id: 'Saat memotong kulit kentang, jari ibu terluka.' },
     ],
   },
+   {
+pola: '～（他動詞）てある',
+explain: 'Menyatakan kondisi atau keadaan yang terjadi akibat suatu tindakan sengaja yang telah dilakukan oleh seseorang demi tujuan tertentu ("sudah di..;sudah ter..."). Biasanya pada kata kerja transitif',
+contoh: [
+{ jp: '壁にカレンダーが貼ってあります。', rj: 'Kabe ni karendaa ga hatte arimasu.', id: 'Kalender sudah ditempel di dinding.' },
+{ jp: '机の上に本が置いてあります。', rj: 'Tsukue no ue ni hon ga oite arimasu.', id: 'Buku sudah diletakkan di atas meja.' },
+{ jp: '明日の会議の資料はもう準備してあります。', rj: 'Ashita no kaigi no shiryou wa mou junbi shite arimasu.', id: 'Dokumen untuk rapat besok sudah disiapkan.' }
+]
+},
+{
+pola: '～（自動詞）ている',
+explain: 'Menyatakan keadaan/kondisi yang terjadi secara alami atau keberlanjutan hasil dari suatu peristiwa tanpa memfokuskan pelaku tindakannya ("dalam keadaan..."). Biasanya pada katakerja intransitif',
+contoh: [
+{ jp: 'ドアが開いています。', rj: 'Doa ga aite imasu.', id: 'Pintunya terbuka.' },
+{ jp: '電気がついています。', rj: 'Denki ga tsuite imasu.', id: 'Lampu dalam keadaan menyala.' },
+{ jp: '窓が割れています。', rj: 'Mado ga warete imasu.', id: 'Jendelanya pecah.' }
+]
+},
   {
     pola: '～てから',
     explain: 'Kata kerja bentuk Verba てから untuk menyatakan urutan aksi (setelah melakukan A, lalu melakukan B).',
@@ -981,6 +999,34 @@ const tatabahasaData = [
       { jp: '3.	テスト中に話してはいけない。', rj: 'Tesuto chuu ni hanashite wa ikenai. ', id: 'Tidak boleh berbicara selama tes' },
     ],
   },
+{
+pola: '～てもらう',
+explain: 'Menyatakan bahwa pembicara menerima kebaikan atau bantuan tindakan dari orang lain. Bisa berarti: "di~kan" ("minta/mendapat bantuan dari...").',
+contoh: [
+{ jp: '私は友達に日本語を教えてもらいました。', rj: 'Watashi wa tomodachi ni Nihongo o oshiete moraimashita.', id: 'Saya diajari bahasa Jepang oleh teman saya.' },
+{ jp: '母に料理を作ってもらいました。', rj: 'Haha ni ryouri o tsukutte moraimashita.', id: 'Saya dibuatkan masakan oleh ibu.' },
+{ jp: '田中さんに駅まで送ってもらいました。', rj: 'Tanaka-san ni eki made okutte moraimashita.', id: 'Saya diantar ke stasiun oleh Pak Tanaka.' }
+]
+},
+{
+pola: '～てあげる',
+explain: 'Menyatakan tindakan memberikan bantuan atau melakukan sesuatu demi kebaikan orang lain ("melakukan... untuk orang lain").',
+contoh: [
+{ jp: '妹に宿題を教えてあげました。', rj: 'Imouto ni shukudai o oshiete agamashita.', id: 'Saya mengajari adik perempuan saya tugas sekolahnya.' },
+{ jp: '友達に荷物を持ってあげました。', rj: 'Tomodachi ni nimotsu o motte agamashita.', id: 'Saya membawakan barang milik teman saya.' },
+{ jp: 'おばあさんに席を譲ってあげました。', rj: 'Obaasan ni seki o yazutte agamashita.', id: 'Saya memberikan/mempersilakan kursi untuk nenek.' }
+]
+},
+{
+pola: '～てくれる',
+explain: 'Menyatakan bahwa orang lain secara sukarela melakukan kebaikan atau bantuan untuk pembicara atau pihak pembicara ("orang lain melakukan... untuk saya").',
+contoh: [
+{ jp: '友達が私に写真を送ってくれました。', rj: 'Tomodachi ga watashi ni shashin o okutte kuremashita.', id: 'Teman saya mengirimkan foto kepada saya.' },
+{ jp: '親切な人が道を教えてくれました。', rj: 'Shinsetsu na hito ga michi o oshiete kuremashita.', id: 'Orang yang ramah memberitahukan jalan kepada saya.' },
+{ jp: '母が美味しいケーキを買ってくれました。', rj: 'Haha ga oishii keeki o katte kuremashita.', id: 'Ibu membelikan saya kue yang enak.' }
+]
+},
+   
   {
     pola: '～ないで',
     explain: 'Menjelaskan "dengan tidak", "tanpa',
@@ -1024,7 +1070,24 @@ const tatabahasaData = [
       { jp: 'ここで写真を撮ることができます。', rj: 'koko de shashin o toru koto ga dekimasu', id: 'Di sini bisa mengambil foto.' },
     ],
   },
-   
+   {
+pola: '～予定だ',
+explain: 'Menyatakan rencana formal atau jadwal resmi yang sudah ditetapkan ("dijadwalkan/rencananya akan...").',
+contoh: [
+{ jp: '来週の月曜日に出張する予定です。', rj: 'Raishuu no getsuyoubi ni shucchou suru yotei desu.', id: 'Saya dijadwalkan perjalan dinas pada hari Senin depan.' },
+{ jp: '会議は午後２時から始まる予定です。', rj: 'Kaigi wa gogo niji kara hajimaru yotei desu.', id: 'Rapat rencananya akan dimulai pukul 2 siang.' },
+{ jp: '新しい飛行機は明日到着する予定です。', rj: 'Atarashii hikouki wa ashita touchaku suru yotei desu.', id: 'Pesawat baru dijadwalkan tiba besok.' }
+]
+},
+{
+pola: '～つもり',
+explain: 'Menyatakan niat atau keyakinan pribadi seseorang untuk melakukan (atau tidak melakukan) sesuatu ("berniat untuk...").',
+contoh: [
+{ jp: '来年日本へ行くつもりです。', rj: 'Rainen Nihon e iku tsumori desu.', id: 'Saya berniat pergi ke Jepang tahun depan.' },
+{ jp: '今日は買い物をしないつもりです。', rj: 'Kyou wa kaimono o shinai tsumori desu.', id: 'Hari ini saya berniat untuk tidak berbelanja.' },
+{ jp: '大学を卒業したら、働くつもりです。', rj: 'Daigaku o sotsugyou shitara, hataraku tsumori desu.', id: 'Setelah lulus kuliah, saya berniat untuk bekerja.' }
+]
+},
   {
     pola: '～かもしれません',
     explain: 'Menyatakan kemungkinan atau dugaan. Artinya "mungkin". Tingkat keyakinan sekitar 50%.',
@@ -1099,6 +1162,15 @@ const tatabahasaData = [
       { jp: '勉強のあとで、ゲームをします。', rj: '(Benkyou no ato de, geemu o shimasu.)', id: 'Setelah belajar, saya bermain game.' },
     ],
   },
+   {
+pola: '～にする',
+explain: 'Digunakan saat memilih atau memutuskan sesuatu dari beberapa pilihan yang ada (sering digunakan saat memesan makanan/minuman).',
+contoh: [
+{ jp: '私はコーヒーにします。', rj: 'Watashi wa koohii ni shimasu.', id: 'Saya pilih kopi saja.' },
+{ jp: '昼ご飯はラーメンにしましょう。', rj: 'Hirugohan wa raamen ni shimashou.', id: 'Untuk makan siang, mari kita pilih ramen.' },
+{ jp: '次の旅行は日本にすることにしました。', rj: 'Tsugi no ryokou wa Nihon ni suru koto ni shimashita.', id: 'Saya memutuskan untuk memilih Jepang sebagai tujuan liburan berikutnya.' }
+]
+},
   {
     pola: '～のは～ (kata ganti)',
     explain: '「の」Bisa berarti "yang", Berfungsi sebagai kata ganti benda, tempat, orang, sesuatu atau hal.',
@@ -1195,86 +1267,383 @@ const tatabahasaData = [
       },
     ],
   },
-   {
-    pola: '～ばあい',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+  {
+pola: '～ばあい（～場合）',
+explain: 'Digunakan untuk menyatakan kondisi atau situasi tertentu ("dalam kondisi; barangkali saja; jaga-jaga kalau terjadi...", "jika...", "dalam hal..."). Kata kerja/sifat diubah ke bentuk biasa sebelum ばあい.',
+contoh: [
+{ jp: '雨が降った場合、試合は中止になります。', rj: 'Ame ga futta baai, shiai wa chuushi ni narimasu.', id: 'Jika terjadi hujan, pertandingan akan dibatalkan.' },
+{ jp: '火事の場合は、エレベーターを使わないでください。', rj: 'Kaji no baai wa, erebeetaa o tsukawanaide kudasai.', id: 'Dalam hal terjadi kebakaran, tolong jangan gunakan lift.' },
+{ jp: '遅れる場合は、電話で連絡してください。', rj: 'Okureru baai wa, denwa de renraku shite kudasai.', id: 'Barangkali saja nanti terlambat, tolong hubungi melalui telepon.' }
+]
 },
-   {
-    pola: '～と思う',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～たいと思う',
+explain: 'Menyatakan keinginan spontan, ide yang baru muncul saat berbicara, atau niat saat itu juga ("saya pikir saya ingin..."). Usahakan digunakan untuk diri sendiri.',
+contoh: [
+{ jp: '来年、日本へ行きたいと思います。', rj: 'Rainen, Nihon e ikitai to omoimasu.', id: 'Saya pikir saya ingin pergi ke Jepang tahun depan.' },
+{ jp: '新しいパソコンを買いたいと思います。', rj: 'Atarashii pasokon o kaitai to omoimasu.', id: 'Saya rasa saya ingin membeli laptop baru.' },
+{ jp: '今日は早く帰りたいと思います。', rj: 'Kyou wa hayaku kaeritai to omoimasu.', id: 'Hari ini saya pikir saya ingin pulang lebih cepat.' }
+]
 },
-   {
-    pola: '～と思っている',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～たいと思っている',
+explain: 'Menyatakan keinginan yang sudah lama dipikirkan, direncanakan sejak lama, atau bisa juga digunakan untuk merujuk pada keinginan orang ketiga ("sudah berkeinginan untuk...").',
+contoh: [
+{ jp: '前から日本語を勉強したいと思っています。', rj: 'Mae kara Nihongo o benkyou shitai to omotte imasu.', id: 'Dari dulu saya sudah berniat/ingin belajar bahasa Jepang.' },
+{ jp: '彼は将来、自分の会社を作りたいと思っています。', rj: 'Kare wa shourai, jibun no kaisha o tsukuritai to omotte imasu.', id: 'Dia ingin mendirikan perusahaannya sendiri di masa depan.' },
+{ jp: 'ずっとこの本を読みたいと思っていました。', rj: 'Zutto kono hon o yomitai to omotte imashita.', id: 'Saya sudah lama berkeinginan membaca buku ini.' }
+]
 },
-   {
-    pola: '～ようと思う',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～ようと思う（～意向形＋と思う）',
+explain: 'Menyatakan keputusan SPONTAN atau niat yang MENDADAK dibuat pada saat berbicara menggunakan bentuk mengajak/maksud (意向形).',
+contoh: [
+{ jp: '疲れたから、もう寝ようと思います。', rj: 'Tsukareta kara, mou neyou to omoimasu.', id: 'Karena lelah, saya pikir saya mau tidur saja.' },
+{ jp: '明日、部屋を掃除しようと思います。', rj: 'Ashita, heya o souji shiyou to omoimasu.', id: 'Besok saya berniat untuk membersihkan kamar.' },
+{ jp: '週末は家でゆっくり休もうと思います。', rj: 'Shuumatsu wa ie de yukkuri yasumou to omoimasu.', id: 'Akhir pekan saya pikir saya mau istirahat santai di rumah.' }
+]
 },
-   {
-    pola: '～ようと思っている',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～ようと思っている（～意向形＋と思っている）',
+explain: 'Menyatakan niat atau rencana yang SUDAH DIPERTIMBANGKAN sejak beberapa waktu lalu dan masih berlanjut hingga sekarang.',
+contoh: [
+{ jp: '来月、引っ越ししようと思っています。', rj: 'Raigetsu, hikkoshi shiyou to omotte imasu.', id: 'Bulan depan saya berencana/berniat untuk pindah rumah.' },
+{ jp: '卒業したら、日本で働こうと思っています。', rj: 'Sotsugyou shitara, Nihon de hatarakou to omotte imasu.', id: 'Setelah lulus, saya berencana untuk bekerja di Jepang.' },
+{ jp: 'カメラを買おうと思っているんですが、おすすめはありますか。', rj: 'Kamera o kaou to omotte iru ndesu ga, osusume wa arimasu ka.', id: 'Saya berniat membeli kamera, apakah ada rekomendasi?' }
+]
 },
-   {
-    pola: '～ような',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～ような',
+explain: 'Digunakan untuk memberikan contoh konkret atau membuat perumpamaan ("seperti..."). Menempel langsung sebelum kata benda yang diterangkan.',
+contoh: [
+{ jp: '田中さんのような親切な人になりたいです。', rj: 'Tanaka-san no you na shinsetsu na hito ni naritai desu.', id: 'Saya ingin menjadi orang yang ramah seperti Pak Tanaka.' },
+{ jp: '飛行機のような速い乗り物が好きです。', rj: 'Hikouki no you na hayai norimono ga suki desu.', id: 'Saya suka kendaraan yang cepat seperti pesawat terbang.' },
+{ jp: '夢のような時間を過ごしました。', rj: 'Yume no you na jikan o sugoshimashita.', id: 'Saya menghabiskan waktu yang bagaikan mimpi.' }
+]
 },
-   {
-    pola: '～ように',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～ように',
+explain: 'Menyatakan cara/gaya perumpamaan ("seperti..."), atau tujuan ("supaya/agar..."). Jika menerangkan kata kerja, bentuknya berupa ように.',
+contoh: [
+{ jp: '先生が言うように書いてください。', rj: 'Sensei ga iu you ni kaite kudasai.', id: 'Tolong tulis seperti yang dikatakan guru.' },
+{ jp: '日本語が話せるように、毎日練習しています。', rj: 'Nihongo ga hanaseru you ni, mainichi renshuu shite imasu.', id: 'Saya berlatih setiap hari agar bisa berbicara bahasa Jepang.' },
+{ jp: '鳥のように空を飛びたいです。', rj: 'Tori no you ni sora o tobitai desu.', id: 'Saya ingin terbang di angkasa seperti burung.' }
+]
 },
-   {
-    pola: '～ようにする',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～ようにする',
+explain: 'Menyatakan usaha konstan atau keputusan diri untuk melakukan (atau tidak melakukan) sesuatu secara sadar ("berusaha untuk...").',
+contoh: [
+{ jp: '毎日野菜を食べるようにしています。', rj: 'Mainichi yasai o taberu you ni shite imasu.', id: 'Saya berusaha untuk makan sayur setiap hari.' },
+{ jp: '寝る前にスマホを見ないようにしてください。', rj: 'Neru mae ni sumaho o minai you ni shite kudasai.', id: 'Tolong usahakan untuk tidak melihat smartphone sebelum tidur.' },
+{ jp: 'これからは遅刻しないようにします。', rj: 'Kore kara wa chikoku shinai you ni shimasu.', id: 'Mulai sekarang saya akan berusaha untuk tidak terlambat.' }
+]
 },
-   {
-    pola: 'ようになる',
-    explain: 'sedang edit...',
-    contoh: [
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-      { jp: '', rj: '', id: '' },
-    ],
+{
+pola: '～ようにしている',
+explain: 'Menyatakan kebiasaan yang rutin diupayakan secara sadar dan berkelanjutan ("selalu berusaha/; membiasakan diri untuk...;diusahakan untuk...").',
+contoh: [
+{ jp: '毎日野菜を食べるようにしています。', rj: 'Mainichi yasai o taberu you ni shite imasu.', id: 'Saya selalu berusaha makan sayur setiap hari.' },
+{ jp: '夜遅くにお菓子を食べないようにしています。', rj: 'Yoru osoku ni okashi o tabenai you ni shite imasu.', id: 'Saya usahakan tidak makan camilan saat larut malam.' },
+{ jp: '毎朝６時に起きるようにしています。', rj: 'Maiasa rokuji ni okiru you ni shite imasu.', id: 'Saya berusaha untuk bangun jam 6 setiap pagi.' }
+]
+},   
+{
+pola: '～ようになる',
+explain: 'Menyatakan perubahan kondisi alami atau kemampuan dari yang tadinya tidak bisa/tidak ada menjadi bisa/terjadi ("menjadi...", "mulai bisa..."). Biasanya mengikuti katakerja POTENSIAL (menyatakan bisa)',
+contoh: [
+{ jp: '日本語で話せるようになりました。', rj: 'Nihongo de hanaseru you ni narimashita.', id: 'Saya sudah menjadi bisa berbicara dalam bahasa Jepang.' },
+{ jp: '最近、刺身が食べられるようになりました。', rj: 'Saikin, sashimi ga taberareru you ni narimashita.', id: 'Akhir-akhir ini saya mulai bisa makan sashimi.' },
+{ jp: '練習すれば、泳げるようになりますよ。', rj: 'Renshuu shureba, oyogeru you ni narimasu yo.', id: 'Kalau berlatih, kamu pasti akan jadi bisa berenang.' }
+]
+},
+{
+pola: '～（ます形）すぎる',
+explain: 'Digunakan dengan menghapus ます pada kata kerja (atau akhiran sifat) untuk menyatakan tindakan/kondisi yang berlebihan ("terlalu...").',
+contoh: [
+{ jp: '昨日、お酒を飲みすぎました。', rj: 'Kinou, osake o nomisugimashita.', id: 'Kemarin saya terlalu banyak minum sake.' },
+{ jp: 'この問題は難しすぎて、わかりません。', rj: 'Kono mondai wa muzukashisugite, wakarimasen.', id: 'Soal ini terlalu sulit, jadi saya tidak paham.' },
+{ jp: '冗談でも、言いすぎは良くないですよ。', rj: 'Joudan demo, iisugi wa yokunai desu yo.', id: 'Meskipun becanda, terlalu berlebihan berucap itu tidak baik.' }
+]
+},
+{
+pola: '～（ます形）やすい',
+explain: 'Menempel pada kata kerja bentuk ます (tanpa ます) untuk menyatakan sesuatu yang mudah dilakukan atau cenderung terjadi ("mudah untuk...").',
+contoh: [
+{ jp: 'このペンは書きやすいです。', rj: 'Kono pen wa kakiyasui desu.', id: 'Pulpen ini mudah untuk dipakai menulis.' },
+{ jp: '彼の説明はわかりやすいですね。', rj: 'Kare no setsumei wa wakariyasui desu ne.', id: 'Penjelasan dia mudah dipahami ya.' },
+{ jp: '白い服は汚れやすいです。', rj: 'Shiroi fuku wa yogoreyasui desu.', id: 'Baju putih mudah kotor.' }
+]
+},
+{
+pola: '～（ます形）にくい',
+explain: 'Menempel pada kata kerja bentuk ます (tanpa ます) untuk menyatakan sesuatu yang sulit atau sukar untuk dilakukan ("sulit/sukar untuk...").',
+contoh: [
+{ jp: 'この漢字は覚えにくいです。', rj: 'Kono kanji wa oboenikui desu.', id: 'Kanji ini sulit untuk dihafalkan.' },
+{ jp: 'この靴は歩きにくいと思います。', rj: 'Kono kutsu wa arukinikui to omoimasu.', id: 'Saya pikir sepatu ini sulit untuk dipakai berjalan.' },
+{ jp: '雨の日は事故が起きやすく、運転しにくいです。', rj: 'Ame no hi wa jiko ga okiyasuku, untenshinikui desu.', id: 'Saat hari hujan rawan terjadi kecelakaan dan sulit untuk menyetir.' }
+]
+},
+{
+pola: '～（ます形）ながら',
+explain: 'Menempel pada kata kerja bentuk ます (tanpa ます) untuk menyatakan dua aktivitas yang dilakukan secara bersamaan oleh orang yang sama ("sambil...").',
+contoh: [
+{ jp: '音楽を聴きながら、勉強します。', rj: 'Ongaku o kikinagara, benkyou shimasu.', id: 'Saya belajar sambil mendengarkan musik.' },
+{ jp: '歩きながら、スマホを見ないでください。', rj: 'Arukinagara, sumaho o minai de kudasai.', id: 'Tolong jangan melihat smartphone sambil berjalan.' },
+{ jp: '友達とお茶を飲みながら、楽しく話しました。', rj: 'Tomodachi to ocha o nominagara, tanoshiku hanashimashita.', id: 'Saya mengobrol dengan menyenangkan bersama teman sambil minum teh.' }
+]
+},
+{
+pola: '～んです',
+explain: 'Digunakan untuk memberikan penekanan, penjelasan sebab/alasan, atau meminta konfirmasi atas suatu situasi secara komunikatif.',
+contoh: [
+{ jp: '頭が痛いんです。', rj: 'Atama ga itai ndesu.', id: 'Soalnya kepala saya sakit.' },
+{ jp: 'どこでそのかばんを買ったんですか。', rj: 'Doko de sono kaban o katta ndesu ka.', id: 'Di mana kamu membeli tas itu?' },
+{ jp: 'バスが来なかったんです。', rj: 'Basu ga konakatta ndesu.', id: 'Masalahnya busnya tadi tidak datang.' }
+]
+},
+{
+pola: '～がする',
+explain: 'Menyatakan rangsangan yang dirasakan oleh indra manusia secara tidak sengaja (suara, bau, rasa, atau firasat).',
+contoh: [
+{ jp: 'いい匂いがします。', rj: 'Ii nioi ga shimasu.', id: 'Tercium bau yang harum.' },
+{ jp: '変な音がします。', rj: 'Hen na oto ga shimasu.', id: 'Terdengar suara yang aneh.' },
+{ jp: 'この料理は甘い味がします。', rj: 'Kono ryouri wa amai aji ga shimasu.', id: 'Masakan ini rasanya manis.' }
+]
+},
+{
+pola: '～ことにする',
+explain: 'Menyatakan keputusan pribadi yang dibuat oleh pembicara secara sadar ("memutuskan untuk...").',
+contoh: [
+{ jp: '来月からスポーツクラブに通うことにしました。', rj: 'Raigetsu kara supootsu kurabu ni kayou koto ni shimashita.', id: 'Saya memutuskan untuk rutin ke klub olahraga mulai bulan depan.' },
+{ jp: '健康のために、甘いものをやめることにしました。', rj: 'Kenkou no tame ni, amai mono o yameru koto ni shimashita.', id: 'Demi kesehatan, saya memutuskan untuk berhenti makan yang manis-manis.' },
+{ jp: '今年は旅行に行かないことにします。', rj: 'Koutoshi wa ryokou ni ikanai koto ni shimasu.', id: 'Saya memutuskan untuk tidak pergi berlibur tahun ini.' }
+]
+},
+{
+pola: '～ことになる',
+explain: 'Menyatakan kepurusan, aturan, atau takdir yang ditetapkan oleh pihak luar/organisasi tanpa campur tangan keputusan langsung pembicara ("diputuskan bahwa/menjadi...").',
+contoh: [
+{ jp: '来月東京へ転勤することになりました。', rj: 'Raigetsu Toukyou e tenkin suru koto ni narimashita.', id: 'Telah diputuskan bahwa saya dipindahtugaskan ke Tokyo bulan depan.' },
+{ jp: 'ここでタバコを吸ってはいけないことになっています。', rj: 'Koko de tabako o sutte wa ikenai koto ni natte imasu.', id: 'Aturannya di sini tidak boleh merokok.' },
+{ jp: '明日、テストをすることになりました。', rj: 'Ashita, tesuto o suru koto ni narimashita.', id: 'Telah diputuskan bahwa besok akan diadakan tes.' }
+]
+},
+{
+pola: '～らしい（推量）',
+explain: 'Menyatakan dugaan atau perkiraan berdasarkan informasi tidak langsung yang didengar atau dilihat ("sepertinya/tampaknya...").',
+contoh: [
+{ jp: '噂によると、あの二人は付き合っているらしいです。', rj: 'Uwasa ni yoruto, ano futari wa tsukiatte iru rashii desu.', id: 'Menurut rumor, sepertinya mereka berdua berpacaran.' },
+{ jp: '明日は雨が降るらしいです。', rj: 'Ashita wa ame ga kuru rashii desu.', id: 'Tampaknya besok akan turun hujan.' },
+{ jp: '田中さんは来月結婚するらしいですよ。', rj: 'Tanaka-san wa raigetsu kekkon suru rashii desu yo.', id: 'Dengarnya Pak Tanaka akan menikah bulan depan.' }
+]
+},
+{
+pola: '～らしい（典型）',
+explain: 'Menyatakan bahwa seseorang atau sesuatu memiliki karakter asli yang sangat menonjol atau ideal sesuai dengan statusnya ("layaknya/tipikal...").',
+contoh: [
+{ jp: '今日は春らしい暖かい日ですね。', rj: 'Kyou wa haru rashii atatakai hi desu ne.', id: 'Hari ini adalah hari yang hangat khas musim semi.' },
+{ jp: '彼は男らしくてかっこいいです。', rj: 'Kare wa otokorashikute kakkoii desu.', id: 'Dia jantan/lelaki banget dan keren.' },
+{ jp: '学生なら学生らしく勉強しなさい。', rj: 'Gakusei nara gakusei rashiku benkyou shinasai.', id: 'Kalau murid, belajarlah layaknya seorang murid.' }
+]
+},
+{
+pola: '～まま',
+explain: 'Menyatakan melakukan tindakan lain tanpa mengubah kondisi atau situasi sebelumnya yang sedang berlangsung ("dalam keadaan tetap...").',
+contoh: [
+{ jp: '電気をつけたまま寝てしまいました。', rj: 'Denki o tsuketa mama nete shimaimashita.', id: 'Saya tertidur dalam keadaan lampu tetap menyala.' },
+{ jp: '靴のまま部屋に入らないでください。', rj: 'Kutsu no mama heya ni hairanaide kudasai.', id: 'Jangan masuk ke kamar dalam keadaan masih memakai sepatu.' },
+{ jp: '窓を開けたまま出かけました。', rj: 'Mado o aketa mama dekakemashita.', id: 'Saya pergi keluar dengan jendela dibiarkan terbuka.' }
+]
+},
+{
+pola: '～みたいだ（推量）',
+explain: 'Menyatakan dugaan informal berdasarkan pengamatan langsung oleh pembicara ("sepertinya/kayaknya...").',
+contoh: [
+{ jp: 'あの人はお腹が空いているみたいです。', rj: 'Ano hito wa onaka ga aku tte iru mitai desu.', id: 'Orang itu sepertinya lapar.' },
+{ jp: '外は雨が降っているみたいですね。', rj: 'Soto wa ame ga futte iru mitai desu ne.', id: 'Di luar sepertinya sedang hujan ya.' },
+{ jp: 'このパソコンは故障しているみたいです。', rj: 'Kono pasokon wa koshou shite iru mitai desu.', id: 'Komputer ini kayaknya rusak.' }
+]
+},
+{
+pola: '～ようだ（推量）',
+explain: 'Menyatakan dugaan formal atau tertulis berdasarkan bukti, pengalaman, atau situasi yang diamati secara objektif ("tampaknya/sepertinya...").',
+contoh: [
+{ jp: '事故があったようです。', rj: 'Jiko ga atta you desu.', id: 'Tampaknya telah terjadi kecelakaan.' },
+{ jp: '彼女は悲しいようです。', rj: 'Kanojo wa kanashii you desu.', id: 'Sepertinya dia sedang sedih.' },
+{ jp: '風邪を引いたようです。', rj: 'Kaze o hiita you desu.', id: 'Tampaknya saya masuk angin.' }
+]
+},
+{
+pola: '～そうです（直前）',
+explain: 'Menyatakan fenomena atau kejadian yang akan segera terjadi dalam waktu sangat dekat ("hampir/tampak akan..."). Menempel pada kata kerja bentuk ます (tanpa ます).',
+contoh: [
+{ jp: '今にも雨が降りそうです。', rj: 'Ima nimo ame ga furisou desu.', id: 'Tampaknya hujan akan segera turun sebentar lagi.' },
+{ jp: 'ボタンが取れそうです。', rj: 'Botan ga toresou desu.', id: 'Kancingnya hampir lepas.' },
+{ jp: '荷物が落ちそうです。', rj: 'Nimotsu ga ochisou desu.', id: 'Barangnya hampir jatuh.' }
+]
+},
+{
+pola: '～そうです（伝聞）',
+explain: 'Menyatakan kabar berita atau kabar angin yang didengar dari pihak lain tanpa mengubah isinya ("katanya/dengarnya..."). Menempel pada bentuk biasa (普通形).',
+contoh: [
+{ jp: '天気予報によると、明日は晴れるそうです。', rj: 'Tenki yohou ni yoruto, ashita wa hareru sou desu.', id: 'Menurut prakiraan cuaca, katanya besok akan cerah.' },
+{ jp: '田中さんは来月結婚するそうです。', rj: 'Tanaka-san wa raigetsu kekkon suru sou desu.', id: 'Dengarnya Pak Tanaka akan menikah bulan depan.' },
+{ jp: 'あの店のラーメンは美味しいそうです。', rj: 'Ano mise no raamen wa oishii sou desu.', id: 'Katanya ramen di toko itu enak.' }
+]
+},
+{
+pola: '～そうです（様態）',
+explain: 'Menyatakan kesan visual atau gambaran penampilan luar dari suatu benda/orang/sifat ("tampaknya/kelihatannya..."). Menempel pada kata sifat (tanpa い/な).',
+contoh: [
+{ jp: 'このケーキは美味しそうです。', rj: 'Kono keeki wa oishisou desu.', id: 'Kue ini kelihatannya enak.' },
+{ jp: '彼は嬉しそうです。', rj: 'Kare wa ureshisou desu.', id: 'Dia kelihatannya senang.' },
+{ jp: 'この机は丈夫そうです。', rj: 'Kono tsukue wa joubusou desu.', id: 'Meja ini kelihatannya kokoh.' }
+]
+},
+{
+pola: '～みたいな',
+explain: 'Bentuk kasual dari ～ような, digunakan untuk memberikan contoh atau mengumpamakan sesuatu ("seperti..."). Menerangkan kata benda setelahnya.',
+contoh: [
+{ jp: '天使みたいな笑顔ですね。', rj: 'Tenshi mitai na egao desu ne.', id: 'Senyuman yang seperti malaikat ya.' },
+{ jp: 'アニメみたいな世界に行ってみたいです。', rj: 'Anime mitai na sekai ni itte mitai desu.', id: 'Saya ingin mencoba pergi ke dunia seperti anime.' },
+{ jp: '夢みたいな話ですね。', rj: 'Yume mitai na hanashi desu ne.', id: 'Cerita yang bagaikan mimpi ya.' }
+]
+},
+{
+pola: '～みたいに（例示）',
+explain: 'Bentuk kasual dari ～ように, digunakan untuk menerangkan tindakan atau sifat sebagai perumpamaan atau contoh ("seperti/bagaikan...").',
+contoh: [
+{ jp: '日本語を日本人みたいに話したいです。', rj: 'Nihongo o Nihonjin mitai ni hanasitai desu.', id: 'Saya ingin berbicara bahasa Jepang seperti orang Jepang.' },
+{ jp: '星みたいに輝いています。', rj: 'Hoshi mitai ni kagayaiteru.', id: 'Bersinar bagaikan bintang.' },
+{ jp: '子供みたいに泣かないでください。', rj: 'Kodomo mitai ni nakanaide kudasai.', id: 'Jangan menangis seperti anak kecil.' }
+]
+},
+{
+pola: '～たらいいですか',
+explain: 'Digunakan saat meminta petunjuk, rekomendasi, atau nasihat mengenai apa yang sebaiknya dilakukan ("sebaiknya... bagaimana?").',
+contoh: [
+{ jp: 'パスポートをなくしたんですが、どうしたらいいですか。', rj: 'Pasuport o nakushita ndesu ga, dou shitara ii desu ka.', id: 'Saya kehilangan paspor, sebaiknya bagaimana ya?' },
+{ jp: 'どこでチケットを買ったらいいですか。', rj: 'Doko de chiketto o kattara ii desu ka.', id: 'Sebaiknya saya beli tiket di mana ya?' },
+{ jp: '何を着たらいいですか。', rj: 'Nani o kitara ii desu ka.', id: 'Sebaiknya saya pakai baju apa ya?' }
+]
+},
+{
+pola: '～たらどうですか',
+explain: 'Digunakan untuk memberikan saran, usulan, atau rekomendasi halus kepada orang lain ("bagaimana kalau...").',
+contoh: [
+{ jp: '少し休んだらどうですか。', rj: 'Sukoshi yasumdara dou desu ka.', id: 'Bagaimana kalau kamu istirahat sebentar?' },
+{ jp: '薬を飲んだらどうですか。', rj: 'Kusuri o nondara dou desu ka.', id: 'Bagaimana kalau minum obat?' },
+{ jp: '先生に相談したらどうですか。', rj: 'Sensei ni soudan shitara dou desu ka.', id: 'Bagaimana kalau berdiskusi dengan guru?' }
+]
+},
+{
+pola: '～ばいいですか',
+explain: 'Pola alternatif dari たらいいですか untuk meminta saran atau solusi tindakan ("harus/sebaiknya bagaimana...").',
+contoh: [
+{ jp: 'この申請書はどこに出せばいいですか。', rj: 'Kono shinseisho wa doko ni daseba ii desu ka.', id: 'Formulir aplikasi ini sebaiknya saya serahkan ke mana?' },
+{ jp: 'どうすればいいですか。', rj: 'Dou sureba ii desu ka.', id: 'Sebaiknya saya harus bagaimana?' },
+{ jp: '漢字が読めない時、誰に聞けばいいですか。', rj: 'Kanji ga yomenai toki, dare ni kikeba ii desu ka.', id: 'Saat tidak bisa membaca kanji, sebaiknya bertanya ke siapa?' }
+]
+},
+{
+pola: '～ために',
+explain: 'Menyatakan tujuan utama dari suatu tindakan ("demi/untuk...") atau menyatakan alasan/sebab suatu kejadian.',
+contoh: [
+{ jp: '家を買うために、貯金しています。', rj: 'Ie o kau tame ni, chokin shite imasu.', id: 'Saya menabung demi membeli rumah.' },
+{ jp: '健康のために、毎日走っています。', rj: 'Kenkou no tame ni, mainichi hashitte imasu.', id: 'Demi kesehatan, saya berlari setiap hari.' },
+{ jp: '留学のために、日本語を勉強しています。', rj: 'Ryuugaku no tame ni, Nihongo o benkyou shite imasu.', id: 'Untuk kuliah di luar negeri, saya belajar bahasa Jepang.' }
+]
+},
+{
+pola: '～かどうか',
+explain: 'Digunakan saat menyatakan dua kemungkinan "ya atau tidak" dalam kalimat bersarang ("apakah... atau tidak").',
+contoh: [
+{ jp: '明日雨が降るかどうか分かりません。', rj: 'Ashita ame ga kuru ka dou ka wakarimasen.', id: 'Saya tidak tahu apakah besok akan turun hujan atau tidak.' },
+{ jp: '彼が来るかどうか知っていますか。', rj: 'Kare ga kuru ka dou ka shitte imasu ka.', id: 'Apakah kamu tahu dia datang atau tidak?' },
+{ jp: 'この服が合うかどうか着てみます。', rj: 'Kono fuku ga au ka dou ka kite mimasu.', id: 'Saya akan mencoba memakai baju ini untuk melihat cocok atau tidaknya.' }
+]
+},
+{
+pola: '～させる（使役形）',
+explain: 'Bentuk kausatif yang digunakan untuk menyatakan menyuruh, memaksa, atau mengizinkan seseorang melakukan sesuatu ("menyuruh/membiarkan...").',
+contoh: [
+{ jp: '母は子供に野菜を食べさせます。', rj: 'Haha wa kodomo ni yasai o tabesasemasu.', id: 'Ibu menyuruh anaknya makan sayur.' },
+{ jp: '先生は生徒に宿題をさせました。', rj: 'Sensei wa seito ni shukudai o sasemashita.', id: 'Guru menyuruh para siswa mengerjakan PR.' },
+{ jp: '部長は私に報告書を書かせました。', rj: 'Buchou wa watashi ni houkokusho o kakasemashita.', id: 'Kepala bagian menyuruh saya menulis laporan.' }
+]
+},
+{
+pola: '～される（受身形）',
+explain: 'Bentuk pasif yang digunakan ketika subjek menerima tindakan dari orang lain ("di-...").',
+contoh: [
+{ jp: '私は先生にほめられました。', rj: 'Watashi wa sensei ni homeraremashita.', id: 'Saya dipuji oleh guru.' },
+{ jp: '猫に手を噛まれました。', rj: 'Neko ni te o kamararemashita.', id: 'Tangan saya digigit oleh kucing.' },
+{ jp: '知らない人に話しかけられました。', rj: 'Shiranai hito ni hanashikakeraremashita.', id: 'Saya disapa oleh orang yang tidak dikenal.' }
+]
+},
+{
+pola: '～させてください',
+explain: 'Pola sopan yang digunakan untuk meminta izin agar diri sendiri dibolehkan melakukan sesuatu ("izinkan saya untuk...").',
+contoh: [
+{ jp: '気分が悪いので、早く帰らせてください。', rj: 'Kibun ga karui node, hayaku kaerasete kudasai.', id: 'Karena merasa kurang sehat, izinkan saya pulang lebih awal.' },
+{ jp: '私にその仕事をさせてください。', rj: 'Watashi ni sono shigoto o sasete kudasai.', id: 'Izinkan saya mengerjakan pekerjaan itu.' },
+{ jp: '写真を撮らせてください。', rj: 'Shashin o torasete kudasai.', id: 'Tolong izinkan saya mengambil foto.' }
+]
+},
+{
+pola: '～ていただけませんか',
+explain: 'Ungkapan sopan tinggi yang digunakan untuk meminta tolong atau permohonan bantuan kepada orang lain ("bisakah Anda tolong...").',
+contoh: [
+{ jp: 'もう一度説明していただけませんか。', rj: 'Mou ichido setsumei shite itadakemasen ka.', id: 'Bisakah Anda tolong jelaskan sekali lagi?' },
+{ jp: '写真を撮っていただけませんか。', rj: 'Shashin o totte itadakemasen ka.', id: 'Bisa tolong ambilkan foto untuk saya?' },
+{ jp: '日本語を直していただけませんか。', rj: 'Nihongo o naoshite itadakemasen ka.', id: 'Bisakah Anda bantu mengoreksi bahasa Jepang saya?' }
+]
+},
+{
+pola: '～はずだ',
+explain: 'Menyatakan keyakinan kuat atau kepastian pembicara berdasarkan alasan, bukti, atau jadwal yang jelas ("seharusnya/pasti...").',
+contoh: [
+{ jp: '彼は今日来るはずです。', rj: 'Kare wa kyou kuru hazu desu.', id: 'Dia seharusnya datang hari ini.' },
+{ jp: '鍵はカバンの中にあるはずです。', rj: 'Kagi wa kaban no naka ni aru hazu desu.', id: 'Kunci seharusnya ada di dalam tas.' },
+{ jp: 'ちゃんと練習したから、勝てるはずです。', rj: 'Chanto renshuu shita kara, kateru hazu desu.', id: 'Karena sudah berlatih dengan benar, kita pasti/seharusnya bisa menang.' }
+]
+},
+{
+pola: '～ほど～ない',
+explain: 'Digunakan untuk membandingkan dua hal, menyatakan bahwa A tidak se- (tingkat/sifatnya) dibandingkan B ("tidak se-... dibanding...").',
+contoh: [
+{ jp: '今日は昨日ほど寒くないです。', rj: 'Kyou wa kinou hodo samukunai desu.', id: 'Hari ini tidak sedingin kemarin.' },
+{ jp: '私は彼ほど日本語が上手ではありません。', rj: 'Watashi wa kare hodo Nihongo ga jouzu de wa arimasen.', id: 'Bahasa Jepang saya tidak sejago dia.' },
+{ jp: 'この車はあの車ほど高くありません。', rj: 'Kono kuruma wa ano kuruma hodo takaku arimasen.', id: 'Mobil ini tidak semahal mobil itu.' }
+]
+},
+{
+pola: '～ば～ほど',
+explain: 'Menyatakan hubungan sebab-akibat yang bertahap; semakin suatu hal dilakukan/terjadi, maka kondisi lainnya akan semakin meningkat ("semakin... semakin...").',
+contoh: [
+{ jp: '日本語は勉強すればするほど面白くなります。', rj: 'Nihongo wa benkyou sureba suru hodo面白くなります。', id: 'Bahasa Jepang semakin dipelajari akan menjadi semakin menarik.' },
+{ jp: '安ければ安いほどいいです。', rj: 'Yasukureba yasui hodo ii desu.', id: 'Semakin murah, semakin bagus.' },
+{ jp: '考えれば考えるほどわからなくなります。', rj: 'Kangaereba kangaeru hodo wakaranaku narimasu.', id: 'Semakin dipikirkan, semakin menjadi tidak paham.' }
+]
+},
+{
+pola: '～まま',
+explain: 'Menyatakan melakukan suatu tindakan lain tanpa mengubah kondisi atau situasi sebelumnya yang sedang berlangsung ("dalam keadaan tetap...").',
+contoh: [
+{ jp: 'テレビをつけたまま寝てしまいました。', rj: 'Terebi o tsuketa mama nete shimaimashita.', id: 'Saya tertidur dalam keadaan TV tetap menyala.' },
+{ jp: 'メガネをかけたままお風呂に入りました。', rj: 'Megane o kaketa mama ofuro ni hairimashita.', id: 'Saya masuk ke kamar mandi dalam keadaan masih memakai kacamata.' },
+{ jp: '窓を開けたまま出かけないでください。', rj: 'Mado o aketa mama dekakanaide kudasai.', id: 'Jangan pergi keluar dengan jendela dibiarkan terbuka.' }
+]
+},
+{
+pola: 'どうやって',
+explain: 'Kata tanya yang digunakan untuk menanyakan cara, metode, atau urutan langkah melakukan sesuatu ("bagaimana cara...").',
+contoh: [
+{ jp: '駅までどうやって行きますか。', rj: 'Eki made dou yatte ikimasu ka.', id: 'Bagaimana cara pergi sampai ke stasiun?' },
+{ jp: 'この漢字はどうやって書きますか。', rj: 'Kono kanji wa dou yatte kakimasu ka.', id: 'Bagaimana cara menulis kanji ini?' },
+{ jp: 'どうやってその問題を解決しましたか。', rj: 'Dou yatte sono mondai o kaiketsu shimashita ka.', id: 'Bagaimana cara kamu menyelesaikan masalah tersebut?' }
+]
 },
 ];
 
