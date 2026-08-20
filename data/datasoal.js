@@ -1323,7 +1323,7 @@ contoh: [
 { jp: '薬を飲んだのに、まだ頭が痛いです。', rj: 'Kusuri o nonda noni, mada atama ga itai desu.', id: 'Padahal sudah minum obat, tetapi kepala masih sakit.' },
 { jp: '今日は日曜日なのに、仕事に行かなければなりません。', rj: 'Kyou wa nichiyoubi na noni, shigoto ni ikanakereba narimasen.', id: 'Padahal hari ini hari Minggu, tetapi saya harus pergi bekerja.' }
 ]
-}
+},
   {
     pola: '～から、～',
     explain: 'Berarti "karena" menyatakan alasan; sebab',
