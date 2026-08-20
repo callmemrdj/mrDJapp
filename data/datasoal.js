@@ -2526,7 +2526,7 @@ kataOrang =[
    { kanji: '銀行員', kunyomi: 'ぎんこういん', romaji: 'kyaku', arti: 'Pegawai bank' },
    { kanji: '社員', kunyomi: 'しゃいん', romaji: 'kyaku', arti: 'Pegawai perusahaan' },
    { kanji: '店員', kunyomi: 'てんいん', romaji: 'kyaku', arti: 'Pegawai toko' },
-]
+],
 };
 
 /* ======================================================
