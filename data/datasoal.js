@@ -1851,8 +1851,8 @@ contoh: [
 { jp: '富士山に登ってみたいんですが、いつがいいですか。', rj: 'Fujisan ni nobotte mitai ndesu ga, itsu ga ii desu ka.', id: 'Saya ingin mencoba mendaki Gunung Fuji, tapi kapan waktu yang tepat ya?' }
 ],
 }
-];
-
+]
+};
 /* ======================================================
    DATA FLASHCARD KANJI
    ====================================================== */
