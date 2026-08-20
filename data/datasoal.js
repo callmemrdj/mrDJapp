@@ -1315,6 +1315,15 @@ contoh: [
       { jp: '時間がないので、 急ぎましょう。', rj: 'jikan ga nai node, isogimashou', id: 'Ayo cepetan , karena kita tidak ada waktu' },
     ],
   },
+   {
+pola: '～のに',
+explain: 'Digunakan untuk menyatakan kondisi yang berlawanan atau bertolak belakang dengan perkiraan/harapan dari situasi sebelumnya ("padahal... / meskipun..."). Pola ini sering kali mengandung ungkapan rasa kecewa, terkejut, atau ketidakpuasan dari pembicara.',
+contoh: [
+{ jp: '一生懸命勉強したのに、テストの点数が低かったです。', rj: 'Isshoukenmei benkyou shita noni, tesuto no tensuu ga hikukatta desu.', id: 'Padahal sudah belajar sungguh-sungguh, tetapi nilai ujiannya rendah.' },
+{ jp: '薬を飲んだのに、まだ頭が痛いです。', rj: 'Kusuri o nonda noni, mada atama ga itai desu.', id: 'Padahal sudah minum obat, tetapi kepala masih sakit.' },
+{ jp: '今日は日曜日なのに、仕事に行かなければなりません。', rj: 'Kyou wa nichiyoubi na noni, shigoto ni ikanakereba narimasen.', id: 'Padahal hari ini hari Minggu, tetapi saya harus pergi bekerja.' }
+]
+}
   {
     pola: '～から、～',
     explain: 'Berarti "karena" menyatakan alasan; sebab',
