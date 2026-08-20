@@ -791,6 +791,177 @@ const kosakataData = {
         { jp: 'ぜったいに会いましょう。', rj: 'zettai ni aimashou', id: 'Tentu saja kita akan bertemu.' },
       ],
     },
+     {
+kanji:  'それなら',
+arti: 'kalau begitu',
+explain: 'Kata sambung yang digunakan untuk merespons pernyataan lawan bicara ("kalau begitu / jika demikian...").',
+contoh: [
+{ jp: '「頭が痛いです。」「それなら、薬を飲んで休んでください。」', rj: '"Atama ga itai desu." "Sorenara, kusuri o nonde yasumde kudasai."', id: '"Kepala saya sakit." "Kalau begitu, tolong minum obat dan istirahatlah."' },
+{ jp: '「雨が降りそうです。」「それなら、傘を持っていきましょう。」', rj: '"Ame ga furisou desu." "Sorenara, kasa o motte ikimashou."', id: '"Kelihatannya mau hujan." "Kalau begitu, mari kita bawa payung."' }
+]
+},
+{
+kanji:  'やっと',
+arti: 'Kkhirnya',   
+explain: 'Menyatakan bahwa sesuatu yang ditunggu-tunggu atau diusahakan akhirnya terwujud setelah waktu yang lama atau perjuangan keras ("akhirnya...").',
+contoh: [
+{ jp: '長い勉強のあと、やっと試験に合格しました。', rj: 'Nagai benkyou no ato, yatto shiken ni goukaku shimashita.', id: 'Setelah belajar sekian lama, akhirnya saya lulus ujian.' },
+{ jp: '３０分待って、やっとバスが来ました。', rj: 'Sanjuppun matte, yatto basu ga kimashita.', id: 'Setelah menunggu 30 menit, akhirnya busnya datang.' }
+]
+},
+{
+kanji:  'かなり',
+arti: 'Lumayan; Cukup',  
+explain: 'Keterangan tingkat yang menunjukkan derajat suatu hal melampaui batas biasa ("lumayan / cukup / lumayan banyak").',
+contoh: [
+{ jp: '今日のテストはかなり難しかったです。', rj: 'Kyou no tesuto wa kanari muzukashikatta desu.', id: 'Ujian hari ini cukup sulit.' },
+{ jp: '彼はかなり日本語が上手です。', rj: 'Kare wa kanari Nihongo ga jouzu desu.', id: 'Bahasa Jepangnya lumayan jago.' }
+]
+},
+{
+kanji:  'だいぶ',
+   arti: 'Jauh lebih',  
+explain: 'Menyatakan bahwa kondisi telah berubah secara signifikan jika dibandingkan dengan keadaan sebelumnya ("sudah lumayan / jauh lebih...").',
+contoh: [
+{ jp: '薬を飲んだので、だいぶ良くなりました。', rj: 'Kusuri o nonda node, daibu yokunarimashita.', id: 'Karena sudah minum obat, kondisi saya sudah lumayan membaik.' },
+{ jp: '日本語の生活にもだいぶ慣れました。', rj: 'Nihongo no seikatsu ni mo daibu naremashita.', id: 'Saya juga sudah lumayan terbiasa dengan kehidupan di Jepang.' }
+]
+},
+{
+kanji:  'ほとんど',
+   arti: 'Hampir',  
+explain: 'Menyatakan bahwa hampir seluruhnya atau sebagian besar dari sesuatu telah terjadi/ada ("hampir / sebagian besar"). Bila diikuti bentuk negatif berarti "hampir tidak ada".',
+contoh: [
+{ jp: '宿題はほとんど終わりました。', rj: 'Shukudai wa hotondo owarimashita.', id: 'PR saya hampir selesai seluruhnya.' },
+{ jp: '冷蔵庫の中に食べ物がほとんどありません。', rj: 'Reizouko no naka ni tabemono ga hotondo arimasen.', id: 'Di dalam kulkas hampir tidak ada makanan.' }
+]
+},
+{
+kanji:  'もっと',
+   arti: 'Lebih...lagi',  
+explain: 'Digunakan untuk menambah kadar, tingkat, atau jumlah dari suatu hal ("lebih... lagi").',
+contoh: [
+{ jp: 'もっとゆっくり話してください。', rj: 'Motto yukkuri hanashite kudasai.', id: 'Tolong bicara lebih pelan lagi.' },
+{ jp: '日本語がもっと上手になりたいです。', rj: 'Nihongo ga motto jouzu ni naritai desu.', id: 'Saya ingin menjadi lebih mahir bahasa Jepang.' }
+]
+},
+{
+kanji:  'できるだけ',
+   arti: 'Sebisa mungkin',  
+explain: 'Menyatakan batas maksimal kemampuan atau usaha yang dapat dilakukan ("sedapat mungkin / sebisa mungkin").',
+contoh: [
+{ jp: 'できるだけ早く返事をください。', rj: 'Dekiru dake hayaku henji o kudasai.', id: 'Sebisa mungkin tolong beri balasan secepatnya.' },
+{ jp: '毎日できるだけ野菜を食べるようにしています。', rj: 'Mainichi dekiru dake yasai o taberu you ni shite imasu.', id: 'Saya berusaha makan sayur sebisa mungkin setiap hari.' }
+]
+},
+{
+kanji:  'きゅうに（急に）',
+   arti: 'Tiba-tiba',  
+explain: 'Menyatakan peristiwa atau perubahan keadaan yang terjadi secara mendadak dan tanpa terduga ("tiba-tiba / secara mendadak").',
+contoh: [
+{ jp: '急に雨が降り出しました。', rj: 'Kyuu ni ame ga furidashimashita.', id: 'Tiba-tiba hujan mulai turun.' },
+{ jp: '子供が急に泣き出しました。', rj: 'Kodomo ga kyuu ni nakidashimashita.', id: 'Anak itu tiba-tiba menangis.' }
+]
+},
+{
+kanji:  'ずっと',
+   arti: 'Terus-terusan; jauh lebih...',  
+explain: 'Menyatakan keberlanjutan suatu tindakan/kondisi tanpa terputus, atau perbandingan yang jauh berbeda ("selalu/terus-menerus" atau "jauh lebih...").',
+contoh: [
+{ jp: '今朝からずっと雨が降っています。', rj: 'Kesa kara zutto ame ga futte imasu.', id: 'Sejak tadi pagi hujan terus-menerus turun.' },
+{ jp: '新幹線は電車よりずっと速いです。', rj: 'Shinkansen wa densha yori zutto hayai desu.', id: 'Shinkansen jauh lebih cepat daripada kereta biasa.' }
+]
+},
+{
+kanji:  'いくら～ても',
+   arti: 'Berapa kalipun; berapa banyakpun',  
+explain: 'Menyatakan bahwa seberapa banyak/sering pun suatu tindakan dilakukan, hasilnya tidak akan berubah ("seberapa banyak pun... / bagaimanapun... tetap...").',
+contoh: [
+{ jp: 'いくら考えても、わかりません。', rj: 'Ikura kangaetemo, wakarimasen.', id: 'Sebanyak apa pun saya berpikir, saya tetap tidak paham.' },
+{ jp: 'いくら安くても、いらないものは買いません。', rj: 'Ikura yasukutemo, iranai mono wa kaimasen.', id: 'Seberapa murah pun, saya tidak akan membeli barang yang tidak dibutuhkan.' }
+]
+},
+{
+kanji:  'どんなに～（ても）',
+   arti: 'Betapapun...tetap saja...',  
+explain: 'Menyatakan tingkat intensitas pengandaian yang sangat tinggi ("sebagaimana pun / betapa pun... tetap..."). Biasanya berpasangan dengan bentuk ても/でも.',
+contoh: [
+{ jp: 'どんなに大変でも、最後まで諦めません。', rj: 'Donnani taihen demo, saigo made akirame masen.', id: 'Betapa pun beratnya, saya tidak akan menyerah sampai akhir.' },
+{ jp: 'どんなに忙しくても、毎日日本語を勉強します。', rj: 'Donnani isogashikutemo, mainichi Nihongo o benkyou shimasu.', id: 'Sebagaimana sibuknya pun, saya tetap belajar bahasa Jepang setiap hari.' }
+]
+},
+{
+kanji:  'こんなに',
+   arti: 'Sebegini',  
+explain: 'Menunjukkan tingkat, derajat, atau kondisi ekstrem dari hal yang dekat dengan pembicara ("sebegini... / sampai seperti ini").',
+contoh: [
+{ jp: 'こんなに美味しい料理は初めて食べました。', rj: 'Konnani oishii ryouri wa hajimete tabemashita.', id: 'Baru pertama kali ini saya makan masakan yang sebegini enaknya.' },
+{ jp: 'こんなにたくさん食べられません。', rj: 'Konnani takusan taberaremasen.', id: 'Saya tidak bisa makan sebanyak ini.' }
+]
+},
+{
+kanji:  'そんなに',
+   arti: 'Sebegitu',  
+explain: 'Menunjukkan derajat/hal yang terkait dengan lawan bicara ("sebegitu..."), atau jika dalam kalimat negatif berarti "tidak begitu / tidak terlalu...".',
+contoh: [
+{ jp: 'そんなに急がなくてもいいですよ。', rj: 'Sonnani isoganakutemo ii desu yo.', id: 'Kamu tidak perlu bergegas sebegitunya kok.' },
+{ jp: 'この問題はそんなに難しくありません。', rj: 'Kono mondai wa sonnani muzukashiku arimasen.', id: 'Soal ini tidak terlalu sulit.' }
+]
+},
+{
+kanji:  'あんなに',
+   arti: 'Sebegitu',  
+explain: 'Menunjukkan derajat atau sifat dari suatu hal yang jauh dari pembicara maupun lawan bicara ("sebegitu... (yang di sana/dulu)").',
+contoh: [
+{ jp: 'あんなに元気だったおばあさんが病気になりました。', rj: 'Annani genki datta obaasan ga byouki ni narimashita.', id: 'Nenek yang dulunya sebegitu sehatnya kini jatuh sakit.' },
+{ jp: 'あんなに高い本は買えません。', rj: 'Annani takai hon wa kaemasen.', id: 'Saya tidak bisa membeli buku yang semahal itu.' }
+]
+},
+{
+kanji:  'ずいぶん',
+   arti: 'Sangat; Lumayan sangat',  
+explain: 'Menyatakan bahwa suatu kondisi/jumlah berada di luar dugaan atau standar normal ("sangat / lumayan amat...").',
+contoh: [
+{ jp: '今日はずいぶん寒いですね。', rj: 'Kyou wa zuibun samui desu ne.', id: 'Hari ini dingin sekali ya.' },
+{ jp: 'ずいぶん長い間会っていませんね。', rj: 'Zuibun nagai aida atte imasen ne.', id: 'Sudah lumayan lama sekali kita tidak bertemu ya.' }
+]
+},
+{
+kanji:  'たいてい',
+   arti: 'Biasanya; Umumnya',  
+explain: 'Menyatakan kebiasaan yang rutin atau kondisi umum yang biasanya berlaku ("biasanya / umumnya").',
+contoh: [
+{ jp: '休日はたいてい家で本を読んでいます。', rj: 'Kyuujitsu wa taitei ie de hon o yonde imasu.', id: 'Hari libur biasanya saya membaca buku di rumah.' },
+{ jp: '夜１１時にはたいてい寝ます。', rj: 'Yoru juuichiji ni wa taitei nemasu.', id: 'Malam hari jam 11 biasanya saya tidur.' }
+]
+},
+{
+kanji:  'それに',
+   arti: 'Selain itu; Lagi pula',  
+explain: 'Kata sambung untuk menambahkan poin, fakta, atau alasan lain pada hal yang telah disampaikan sebelumnya ("selain itu / lagipula").',
+contoh: [
+{ jp: 'この店は安いです。それに、美味しいです。', rj: 'Kono mise wa yasui desu. Soreni, oishii desu.', id: 'Toko ini murah. Selain itu, masakan/makanannya enak.' },
+{ jp: '今日は頭が痛いです。それに、熱もあります。', rj: 'Kyou wa atama ga itai desu. Soreni, netsu mo arimasu.', id: 'Hari ini kepala saya sakit. Lagipula, saya juga demam.' }
+]
+},
+{
+kanji:  'しか～ない',
+   arti: 'Hanya; cuma',  
+explain: 'Menyatakan keterbatasan dengan cara menekankan bahwa tidak ada pilihan/jumlah lain selain hal tersebut ("hanya / cuma..."). Selalu dipasangkan dengan bentuk negatif.',
+contoh: [
+{ jp: '財布の中に百円しかありません。', rj: 'Saifu no naka ni hyakuen shika arimasen.', id: 'Di dalam dompet hanya ada 100 yen.' },
+{ jp: 'ひらがなしか書けません。', rj: 'Hiragana shika kakemasen.', id: 'Saya cuma bisa menulis hiragana.' }
+]
+},
+{
+kanji:  'だけ',
+   arti: 'Saja; Cuma',  
+explain: 'Menyatakan batasan atau kuantitas tunggal secara netral tanpa penekanan negatif ("hanya / saja"). Dipasangkan dengan bentuk positif.',
+contoh: [
+{ jp: '５分だけ休んでから、また勉強します。', rj: 'Gofun dake yasumde kara, mata benkyou shimasu.', id: 'Setelah istirahat 5 menit saja, saya akan belajar lagi.' },
+{ jp: 'りんごを一つだけ買いました。', rj: 'Ringo o hitotsu dake kaimashita.', id: 'Saya hanya membeli satu buah apel.' }
+]
+},
   ],
 };
 
