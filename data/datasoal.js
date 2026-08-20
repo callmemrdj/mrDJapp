@@ -861,7 +861,7 @@ explain: 'Menyatakan peristiwa atau perubahan keadaan yang terjadi secara mendad
 contoh: [
 { jp: '急に雨が降り出しました。', rj: 'Kyuu ni ame ga furidashimashita.', id: 'Tiba-tiba hujan mulai turun.' },
 { jp: '子供が急に泣き出しました。', rj: 'Kodomo ga kyuu ni nakidashimashita.', id: 'Anak itu tiba-tiba menangis.' }
-]
+],
 },
 {
 kanji:  'ずっと',
@@ -1579,7 +1579,7 @@ contoh: [
 { jp: '疲れたから、もう寝ようと思います。', rj: 'Tsukareta kara, mou neyou to omoimasu.', id: 'Karena lelah, saya pikir saya mau tidur saja.' },
 { jp: '明日、部屋を掃除しようと思います。', rj: 'Ashita, heya o souji shiyou to omoimasu.', id: 'Besok saya berniat untuk membersihkan kamar.' },
 { jp: '週末は家でゆっくり休もうと思います。', rj: 'Shuumatsu wa ie de yukkuri yasumou to omoimasu.', id: 'Akhir pekan saya pikir saya mau istirahat santai di rumah.' }
-]
+],
 },
 {
 pola: '～ようと思っている（～意向形＋と思っている）',
@@ -1678,7 +1678,7 @@ contoh: [
 { jp: '頭が痛いんです。', rj: 'Atama ga itai ndesu.', id: 'Soalnya kepala saya sakit.' },
 { jp: 'どこでそのかばんを買ったんですか。', rj: 'Doko de sono kaban o katta ndesu ka.', id: 'Di mana kamu membeli tas itu?' },
 { jp: 'バスが来なかったんです。', rj: 'Basu ga konakatta ndesu.', id: 'Masalahnya busnya tadi tidak datang.' }
-]
+],
 },
 {
 pola: '～がする',
