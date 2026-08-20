@@ -791,8 +791,8 @@ const kosakataData = {
         { jp: 'ぜったいに会いましょう。', rj: 'zettai ni aimashou', id: 'Tentu saja kita akan bertemu.' },
       ],
     },
-
-];
+]
+};
 
 /* ======================================================
    DATA TATABAHASA
