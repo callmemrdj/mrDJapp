@@ -2326,7 +2326,7 @@ const flashcardData = {
 { kanji: '金曜日', kunyomi: 'きんようび', romaji: 'kinyoubi', arti: 'Jumat' },
 { kanji: '土曜日', kunyomi: 'どようび', romaji: 'doyoubi', arti: 'Sabtu' }, 
       ],
-kataOrang =[
+kataOrang :[
     { kanji: '人', kunyomi: 'ひと', romaji: 'hito', arti: 'orang' },
     { kanji: '私', kunyomi: 'わたし', romaji: 'watashi', arti: 'saya' },
     { kanji: '父', kunyomi: 'ちち', romaji: 'chichi', arti: 'ayah (saya)' },
