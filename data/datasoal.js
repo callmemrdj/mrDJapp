@@ -798,7 +798,7 @@ explain: 'Kata sambung yang digunakan untuk merespons pernyataan lawan bicara ("
 contoh: [
 { jp: '「頭が痛いです。」「それなら、薬を飲んで休んでください。」', rj: '"Atama ga itai desu." "Sorenara, kusuri o nonde yasumde kudasai."', id: '"Kepala saya sakit." "Kalau begitu, tolong minum obat dan istirahatlah."' },
 { jp: '「雨が降りそうです。」「それなら、傘を持っていきましょう。」', rj: '"Ame ga furisou desu." "Sorenara, kasa o motte ikimashou."', id: '"Kelihatannya mau hujan." "Kalau begitu, mari kita bawa payung."' }
-]
+],
 },
 {
 kanji:  'やっと',
@@ -807,7 +807,7 @@ explain: 'Menyatakan bahwa sesuatu yang ditunggu-tunggu atau diusahakan akhirnya
 contoh: [
 { jp: '長い勉強のあと、やっと試験に合格しました。', rj: 'Nagai benkyou no ato, yatto shiken ni goukaku shimashita.', id: 'Setelah belajar sekian lama, akhirnya saya lulus ujian.' },
 { jp: '３０分待って、やっとバスが来ました。', rj: 'Sanjuppun matte, yatto basu ga kimashita.', id: 'Setelah menunggu 30 menit, akhirnya busnya datang.' }
-]
+],
 },
 {
 kanji:  'かなり',
@@ -816,7 +816,7 @@ explain: 'Keterangan tingkat yang menunjukkan derajat suatu hal melampaui batas 
 contoh: [
 { jp: '今日のテストはかなり難しかったです。', rj: 'Kyou no tesuto wa kanari muzukashikatta desu.', id: 'Ujian hari ini cukup sulit.' },
 { jp: '彼はかなり日本語が上手です。', rj: 'Kare wa kanari Nihongo ga jouzu desu.', id: 'Bahasa Jepangnya lumayan jago.' }
-]
+],
 },
 {
 kanji:  'だいぶ',
@@ -825,7 +825,7 @@ explain: 'Menyatakan bahwa kondisi telah berubah secara signifikan jika dibandin
 contoh: [
 { jp: '薬を飲んだので、だいぶ良くなりました。', rj: 'Kusuri o nonda node, daibu yokunarimashita.', id: 'Karena sudah minum obat, kondisi saya sudah lumayan membaik.' },
 { jp: '日本語の生活にもだいぶ慣れました。', rj: 'Nihongo no seikatsu ni mo daibu naremashita.', id: 'Saya juga sudah lumayan terbiasa dengan kehidupan di Jepang.' }
-]
+],
 },
 {
 kanji:  'ほとんど',
@@ -834,7 +834,7 @@ explain: 'Menyatakan bahwa hampir seluruhnya atau sebagian besar dari sesuatu te
 contoh: [
 { jp: '宿題はほとんど終わりました。', rj: 'Shukudai wa hotondo owarimashita.', id: 'PR saya hampir selesai seluruhnya.' },
 { jp: '冷蔵庫の中に食べ物がほとんどありません。', rj: 'Reizouko no naka ni tabemono ga hotondo arimasen.', id: 'Di dalam kulkas hampir tidak ada makanan.' }
-]
+],
 },
 {
 kanji:  'もっと',
@@ -843,7 +843,7 @@ explain: 'Digunakan untuk menambah kadar, tingkat, atau jumlah dari suatu hal ("
 contoh: [
 { jp: 'もっとゆっくり話してください。', rj: 'Motto yukkuri hanashite kudasai.', id: 'Tolong bicara lebih pelan lagi.' },
 { jp: '日本語がもっと上手になりたいです。', rj: 'Nihongo ga motto jouzu ni naritai desu.', id: 'Saya ingin menjadi lebih mahir bahasa Jepang.' }
-]
+],
 },
 {
 kanji:  'できるだけ',
@@ -852,7 +852,7 @@ explain: 'Menyatakan batas maksimal kemampuan atau usaha yang dapat dilakukan ("
 contoh: [
 { jp: 'できるだけ早く返事をください。', rj: 'Dekiru dake hayaku henji o kudasai.', id: 'Sebisa mungkin tolong beri balasan secepatnya.' },
 { jp: '毎日できるだけ野菜を食べるようにしています。', rj: 'Mainichi dekiru dake yasai o taberu you ni shite imasu.', id: 'Saya berusaha makan sayur sebisa mungkin setiap hari.' }
-]
+],
 },
 {
 kanji:  'きゅうに（急に）',
@@ -870,7 +870,7 @@ explain: 'Menyatakan keberlanjutan suatu tindakan/kondisi tanpa terputus, atau p
 contoh: [
 { jp: '今朝からずっと雨が降っています。', rj: 'Kesa kara zutto ame ga futte imasu.', id: 'Sejak tadi pagi hujan terus-menerus turun.' },
 { jp: '新幹線は電車よりずっと速いです。', rj: 'Shinkansen wa densha yori zutto hayai desu.', id: 'Shinkansen jauh lebih cepat daripada kereta biasa.' }
-]
+],
 },
 {
 kanji:  'いくら～ても',
@@ -879,7 +879,7 @@ explain: 'Menyatakan bahwa seberapa banyak/sering pun suatu tindakan dilakukan, 
 contoh: [
 { jp: 'いくら考えても、わかりません。', rj: 'Ikura kangaetemo, wakarimasen.', id: 'Sebanyak apa pun saya berpikir, saya tetap tidak paham.' },
 { jp: 'いくら安くても、いらないものは買いません。', rj: 'Ikura yasukutemo, iranai mono wa kaimasen.', id: 'Seberapa murah pun, saya tidak akan membeli barang yang tidak dibutuhkan.' }
-]
+],
 },
 {
 kanji:  'どんなに～（ても）',
@@ -888,7 +888,7 @@ explain: 'Menyatakan tingkat intensitas pengandaian yang sangat tinggi ("sebagai
 contoh: [
 { jp: 'どんなに大変でも、最後まで諦めません。', rj: 'Donnani taihen demo, saigo made akirame masen.', id: 'Betapa pun beratnya, saya tidak akan menyerah sampai akhir.' },
 { jp: 'どんなに忙しくても、毎日日本語を勉強します。', rj: 'Donnani isogashikutemo, mainichi Nihongo o benkyou shimasu.', id: 'Sebagaimana sibuknya pun, saya tetap belajar bahasa Jepang setiap hari.' }
-]
+],
 },
 {
 kanji:  'こんなに',
@@ -897,7 +897,7 @@ explain: 'Menunjukkan tingkat, derajat, atau kondisi ekstrem dari hal yang dekat
 contoh: [
 { jp: 'こんなに美味しい料理は初めて食べました。', rj: 'Konnani oishii ryouri wa hajimete tabemashita.', id: 'Baru pertama kali ini saya makan masakan yang sebegini enaknya.' },
 { jp: 'こんなにたくさん食べられません。', rj: 'Konnani takusan taberaremasen.', id: 'Saya tidak bisa makan sebanyak ini.' }
-]
+],
 },
 {
 kanji:  'そんなに',
@@ -906,7 +906,7 @@ explain: 'Menunjukkan derajat/hal yang terkait dengan lawan bicara ("sebegitu...
 contoh: [
 { jp: 'そんなに急がなくてもいいですよ。', rj: 'Sonnani isoganakutemo ii desu yo.', id: 'Kamu tidak perlu bergegas sebegitunya kok.' },
 { jp: 'この問題はそんなに難しくありません。', rj: 'Kono mondai wa sonnani muzukashiku arimasen.', id: 'Soal ini tidak terlalu sulit.' }
-]
+],
 },
 {
 kanji:  'あんなに',
@@ -915,7 +915,7 @@ explain: 'Menunjukkan derajat atau sifat dari suatu hal yang jauh dari pembicara
 contoh: [
 { jp: 'あんなに元気だったおばあさんが病気になりました。', rj: 'Annani genki datta obaasan ga byouki ni narimashita.', id: 'Nenek yang dulunya sebegitu sehatnya kini jatuh sakit.' },
 { jp: 'あんなに高い本は買えません。', rj: 'Annani takai hon wa kaemasen.', id: 'Saya tidak bisa membeli buku yang semahal itu.' }
-]
+],
 },
 {
 kanji:  'ずいぶん',
@@ -924,7 +924,7 @@ explain: 'Menyatakan bahwa suatu kondisi/jumlah berada di luar dugaan atau stand
 contoh: [
 { jp: '今日はずいぶん寒いですね。', rj: 'Kyou wa zuibun samui desu ne.', id: 'Hari ini dingin sekali ya.' },
 { jp: 'ずいぶん長い間会っていませんね。', rj: 'Zuibun nagai aida atte imasen ne.', id: 'Sudah lumayan lama sekali kita tidak bertemu ya.' }
-]
+],
 },
 {
 kanji:  'たいてい',
@@ -933,7 +933,7 @@ explain: 'Menyatakan kebiasaan yang rutin atau kondisi umum yang biasanya berlak
 contoh: [
 { jp: '休日はたいてい家で本を読んでいます。', rj: 'Kyuujitsu wa taitei ie de hon o yonde imasu.', id: 'Hari libur biasanya saya membaca buku di rumah.' },
 { jp: '夜１１時にはたいてい寝ます。', rj: 'Yoru juuichiji ni wa taitei nemasu.', id: 'Malam hari jam 11 biasanya saya tidur.' }
-]
+],
 },
 {
 kanji:  'それに',
@@ -942,7 +942,7 @@ explain: 'Kata sambung untuk menambahkan poin, fakta, atau alasan lain pada hal 
 contoh: [
 { jp: 'この店は安いです。それに、美味しいです。', rj: 'Kono mise wa yasui desu. Soreni, oishii desu.', id: 'Toko ini murah. Selain itu, masakan/makanannya enak.' },
 { jp: '今日は頭が痛いです。それに、熱もあります。', rj: 'Kyou wa atama ga itai desu. Soreni, netsu mo arimasu.', id: 'Hari ini kepala saya sakit. Lagipula, saya juga demam.' }
-]
+],
 },
 {
 kanji:  'しか～ない',
@@ -951,7 +951,7 @@ explain: 'Menyatakan keterbatasan dengan cara menekankan bahwa tidak ada pilihan
 contoh: [
 { jp: '財布の中に百円しかありません。', rj: 'Saifu no naka ni hyakuen shika arimasen.', id: 'Di dalam dompet hanya ada 100 yen.' },
 { jp: 'ひらがなしか書けません。', rj: 'Hiragana shika kakemasen.', id: 'Saya cuma bisa menulis hiragana.' }
-]
+],
 },
 {
 kanji:  'だけ',
@@ -960,7 +960,7 @@ explain: 'Menyatakan batasan atau kuantitas tunggal secara netral tanpa penekana
 contoh: [
 { jp: '５分だけ休んでから、また勉強します。', rj: 'Gofun dake yasumde kara, mata benkyou shimasu.', id: 'Setelah istirahat 5 menit saja, saya akan belajar lagi.' },
 { jp: 'りんごを一つだけ買いました。', rj: 'Ringo o hitotsu dake kaimashita.', id: 'Saya hanya membeli satu buah apel.' }
-]
+],
 },
   ],
 };
