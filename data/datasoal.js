@@ -973,6 +973,42 @@ contoh: [
 { jp: '窓が割れています。', rj: 'Mado ga warete imasu.', id: 'Jendelanya pecah.' }
 ]
 },
+{
+pola: '～といいです',
+explain: 'Menyatakan harapan, doa, atau keinginan agar suatu hal yang positif terjadi ("semoga/harapan saya...").',
+contoh: [
+{ jp: '明日、晴れるといいですね。', rj: 'Ashita, hareru to ii desu ne.', id: 'Semoga besok cerah ya.' },
+{ jp: '試験に合格するといいですね。', rj: 'Shiken ni goukaku suru to ii desu ne.', id: 'Semoga kamu lulus ujian ya.' },
+{ jp: '早く風邪が直るといいですね。', rj: 'Hayaku kaze ga naoru to ii desu ne.', id: 'Semoga cepat sembuh dari flu ya.' }
+]
+},
+{
+pola: 'N1はN2より～',
+explain: 'Pola kalimat perbandingan dasar untuk menyatakan bahwa N1 lebih (sifat) daripada N2 ("N1 lebih ... daripada N2").',
+contoh: [
+{ jp: '新幹線は電車より速いです。', rj: 'Shinkansen wa densha yori hayai desu.', id: 'Shinkansen lebih cepat daripada kereta biasa.' },
+{ jp: '東京は大阪より大きいです。', rj: 'Toukyou wa Oosaka yori ookii desu.', id: 'Tokyo lebih besar daripada Osaka.' },
+{ jp: '今日は昨日より寒いです。', rj: 'Kyou wa kinou yori samui desu.', id: 'Hari ini lebih dingin daripada kemarin.' }
+]
+},
+{
+pola: '～のほうが～',
+explain: 'Digunakan untuk memilih atau menegaskan salah satu pihak yang "lebih" dalam hal tertentu dari pilihan yang ada ("yang bagian/sisi ini lebih...").',
+contoh: [
+{ jp: 'サッカーより野球のほうが面白いです。', rj: 'Sakkaa yori yakyuu no hou ga oshiroi desu.', id: 'Dibanding sepak bola, bisbol lebih menarik.' },
+{ jp: '大きい鞄のほうが便利です。', rj: 'Ookii kaban no hou ga benri desu.', id: 'Tas yang lebih besar lebih praktis.' },
+{ jp: '日本語のほうが難しいと思います。', rj: 'Nihongo no hou ga muzukashii to omoimasu.', id: 'Saya pikir bahasa Jepang lebih sulit.' }
+]
+},
+{
+pola: '～がいちばん～',
+explain: 'Menyatakan tingkat paling/ter- di antara seluruh anggota dalam satu kelompok atau kategori ("paling/ter-...").',
+contoh: [
+{ jp: '一年で夏がいちばん好きです。', rj: 'Ichinen de natsu ga ichiban suki desu.', id: 'Dalam satu tahun, saya paling suka musim panas.' },
+{ jp: 'クラスで田中さんがいちばん背が高いです。', rj: 'Kurasu de Tanaka-san ga ichiban se ga takai desu.', id: 'Di kelas, Pak Tanaka adalah yang paling tinggi.' },
+{ jp: '世界で富士山がいちばん美しいと思います。', rj: 'Sekai de Fujisan ga ichiban utsukushii to omoimasu.', id: 'Saya pikir Gunung Fuji paling indah di dunia.' }
+]
+},
   {
     pola: '～てから',
     explain: 'Kata kerja bentuk Verba てから untuk menyatakan urutan aksi (setelah melakukan A, lalu melakukan B).',
@@ -981,6 +1017,15 @@ contoh: [
       { jp: '国へ帰ってから、父の会社で働きます。', rj: 'Kuni e kaette kara, chichi no kaisha de hatarakimasu.', id: 'Setelah pulang ke negara asal, saya akan bekerja di perusahaan ayah.' },
     ],
   },
+   {
+pola: '～ても・～でも',
+explain: 'Menyatakan pengandaian berlawanan; tindakan atau kondisi di klausa kedua tetap berlaku meskipun kondisi di klausa pertama terjadi ("walaupun/meskipun...").',
+contoh: [
+{ jp: '雨が降っても、出かけます。', rj: 'Ame ga futtemo, dekakemasu.', id: 'Meskipun hujan, saya tetap pergi keluar.' },
+{ jp: '高くても、この鞄を買いたい desu.', rj: 'Takakutemo, kono kaban o kaitai desu.', id: 'Walaupun mahal, saya ingin membeli tas ini.' },
+{ jp: '日曜日でも、仕事があります。', rj: 'Nichiyoubi demo, shigoto ga arimasu.', id: 'Meskipun hari Minggu, saya ada pekerjaan.' }
+]
+},
   {
     pola: '～てもいいです',
     explain: 'Berarti:"boleh". Ungkapan untuk mengijinkan, "membolehkan"',
@@ -1061,7 +1106,33 @@ contoh: [
       { jp: '薬を飲まなければなりません。', rj: '', id: 'Saya harus minum obat.' },
     ],
   },
-
+{
+pola: '～なくちゃ',
+explain: 'Bentuk percakapan kasual dari ～なければなりません untuk menyatakan kewajiban atau keharusan ("harus...").',
+contoh: [
+{ jp: 'もう帰らなくちゃ。', rj: 'Mou kaeranukacha.', id: 'Saya harus pulang sekarang.' },
+{ jp: '明日テストがあるから、勉強しなくちゃ。', rj: 'Ashita tesuto ga aru kara, benkyou shinakucha.', id: 'Karena besok ada tes, saya harus belajar.' },
+{ jp: '薬を飲まなくちゃいけません。', rj: 'Kusuri o nomanakucha ikemasen.', id: 'Harus minum obat.' }
+]
+},
+{
+pola: '～ちゃいけません',
+explain: 'Bentuk percakapan kasual dari ～てはいけません yang menyatakan larangan keras ("tidak boleh...").',
+contoh: [
+{ jp: 'ここで写真を撮っちゃいけません。', rj: 'Koko de shashin o tocchai kemasen.', id: 'Tidak boleh mengambil foto di sini.' },
+{ jp: 'テスト中に友達と話しちゃいけません。', rj: 'Tesuto-chuu ni tomodachi to hanashichai kemasen.', id: 'Tidak boleh berbicara dengan teman saat ujian.' },
+{ jp: 'お酒を飲んで運転しちゃいけません。', rj: 'Osake o nonde unten shichai kemasen.', id: 'Tidak boleh menyetir setelah minum alkohol.' }
+]
+},
+{
+pola: '～だめです',
+explain: 'Ungkapan langsung dan informal untuk melarang sesuatu, menyatakan ketidakbolehkan, atau mengindikasikan sesuatu yang tidak berguna/rusak ("tidak boleh / tidak bisa").',
+contoh: [
+{ jp: '部屋でタバコを吸ってはだめです。', rj: 'Heya de tabako o sutte wa dame desu.', id: 'Tidak boleh merokok di dalam kamar.' },
+{ jp: '入ってはいけません、だめです。', rj: 'Haitte wa ikemasen, dame desu.', id: 'Tidak boleh masuk, tidak boleh.' },
+{ jp: 'このパソコンはもうだめです。', rj: 'Kono pasokon wa mou dame desu.', id: 'Komputer ini sudah tidak bisa dipakai/rusak.' }
+]
+},
   {
     pola: '～ことができる',
     explain: 'Menyatakan kemampuan atau kemungkinan. Artinya "bisa" atau "dapat".',
@@ -1097,6 +1168,15 @@ contoh: [
     ],
   },
    {
+pola: '～こと',
+explain: 'Digunakan untuk membendakan kata kerja (nominalisasi) agar dapat difungsikan sebagai subjek/objek, atau memberikan instruksi/peraturan singkat ("hal/perkara...").',
+contoh: [
+{ jp: '私の趣味は写真を撮ることです。', rj: 'Watashi no shumi wa shashin o toru koto desu.', id: 'Hobi saya adalah memotret foto.' },
+{ jp: '日本語を話すことは難しいです。', rj: 'Nihongo o hanasu koto wa muzukashii desu.', id: 'Berbicara bahasa Jepang itu sulit.' },
+{ jp: 'テストの時は静かにすること。', rj: 'Tesuto no toki wa shizuka ni suru koto.', id: 'Harap tenang saat ujian.' }
+]
+},
+   {
     pola: '～ことがある/こともある',
     explain: 'Selalu mengikuti katakerja bentuk kamus: Berarti "kadang-kadang; ada kalanya"',
     contoh: [
@@ -1104,6 +1184,15 @@ contoh: [
       { jp: '残業できない場合は、家で仕事をすることもある。', rj: '', id: 'Saat tidak bisa lembur, ada kalanya saya bekerja di rumah' },
       { jp: '早い日もあれば、遅いこともある。', rj: '', id: 'Terkadang lebih awal, dan terkadang lebih larut.' },
     ],
+},
+{
+pola: '～たりして',
+explain: 'Digunakan untuk memberikan contoh tindakan acak, menyindir secara halus, atau menyatakan dugaan/sangkaan santai ("seperti melakukan...", "mungkin saja...").',
+contoh: [
+{ jp: '休日は映画を見たりして過ごします。', rj: 'Kyuujitsu wa eiga o mitari shite sugoshimasu.', id: 'Hari libur saya habiskan dengan menonton film dan sejenisnya.' },
+{ jp: '冗談を言ったりして、みんなを笑わせました。', rj: 'Joudan o ittari shite, minna o warawasemashita.', id: 'Dia membuat semua orang tertawa dengan bercanda dan semacamnya.' },
+{ jp: 'もしかして彼はもう帰ったりして。', rj: 'Moshikashite kare wa mou kaeritari shite.', id: 'Jangan-jangan dia sudah pulang?' }
+]
 },
   {
     pola: '～たり～たりする',
@@ -1162,6 +1251,15 @@ contoh: [
       { jp: '勉強のあとで、ゲームをします。', rj: '(Benkyou no ato de, geemu o shimasu.)', id: 'Setelah belajar, saya bermain game.' },
     ],
   },
+   {
+pola: '～になる',
+explain: 'Menyatakan perubahan kondisi, status, atau sifat secara alami atau otomatis ("menjadi..."). Kata benda, kata bilangan, Kata sifat な, menjadi　に、kata sifat い menjadi く ',
+contoh: [
+{ jp: '来年、２０歳になります。', rj: 'Rainen, hatachi ni narimasu.', id: 'Tahun depan saya menjadi berusia 20 tahun.' },
+{ jp: '部屋が綺麗になりました。', rj: 'Heya ga kirei ni narimashita.', id: 'Kamarnya menjadi bersih.' },
+{ jp: '外が暗くなりました。', rj: 'Soto ga kuraku narimashita.', id: 'Di luar menjadi gelap.' }
+]
+},
    {
 pola: '～にする',
 explain: 'Digunakan saat memilih atau memutuskan sesuatu dari beberapa pilihan yang ada (sering digunakan saat memesan makanan/minuman).',
@@ -1601,6 +1699,15 @@ contoh: [
 ]
 },
 {
+pola: '～という',
+explain: 'Digunakan untuk sebutan/nama suatu benda/orang ("yang bernama/disebut..."), atau menyampaikan definisi/isi informasi.',
+contoh: [
+{ jp: 'さくらという花が好きです。', rj: 'Sakura to iu hana ga suki desu.', id: 'Saya suka bunga yang bernama Sakura.' },
+{ jp: '田中さんという人から電話がありました。', rj: 'Tanaka-san to iu hito kara denwa ga arimashita.', id: 'Ada telepon dari orang yang bernama Pak Tanaka.' },
+{ jp: 'これは「歌舞伎」という日本の伝統芸能です。', rj: 'Kore wa "Kabuki" to iu Nihon no dentou geinou desu.', id: 'Ini adalah seni pertunjukan tradisional Jepang yang disebut "Kabuki".' }
+]
+},
+{
 pola: '～はずだ',
 explain: 'Menyatakan keyakinan kuat atau kepastian pembicara berdasarkan alasan, bukti, atau jadwal yang jelas ("seharusnya/pasti...").',
 contoh: [
@@ -1645,6 +1752,96 @@ contoh: [
 { jp: 'どうやってその問題を解決しましたか。', rj: 'Dou yatte sono mondai o kaiketsu shimashita ka.', id: 'Bagaimana cara kamu menyelesaikan masalah tersebut?' }
 ]
 },
+{
+pola: 'によって',
+explain: 'Menyatakan keberagaman/perbedaan tergantung pada hal lain, atau menunjukkan penyebab/pelaku dalam kalimat pasif ("tergantung pada...", "oleh...").',
+contoh: [
+{ jp: '国によって文化が違います。', rj: 'Kuni ni yotte bunka ga chigaimasu.', id: 'Budaya berbeda-beda tergantung negaranya.' },
+{ jp: '人によって考え方が異なります。', rj: 'Hito ni yotte kangaekata ga kotonarimasu.', id: 'Cara berpikir berbeda-beda tergantung orangnya.' },
+{ jp: 'この電話はベルによって発明されました。', rj: 'Kono denwa wa Beru ni yotte hatsumei saremashita.', id: 'Telepon ini ditemukan oleh Bell.' }
+]
+},
+{
+pola: '～とき（に）～',
+explain: 'Menunjukkan waktu atau situasi saat suatu tindakan atau peristiwa terjadi ("saat/sewaktu...").',
+contoh: [
+{ jp: '日本へ行ったとき、着物を買いました。', rj: 'Nihon e itta toki, kimono o kaimashita.', id: 'Saat pergi ke Jepang, saya membeli kimono.' },
+{ jp: '暇なときに、本を読みます。', rj: 'Hima na toki ni, hon o yomimasu.', id: 'Sewaktu ada waktu luang, saya membaca buku.' },
+{ jp: '道を渡るとき、右と左を見てください。', rj: 'Michi o wataru toki, migi to hidari o mite kudasai.', id: 'Saat menyeberang jalan, tolong tengok kanan dan kiri.' }
+]
+},
+{
+pola: '～前に',
+explain: 'Menunjukkan bahwa suatu tindakan dilakukan sebelum tindakan atau peristiwa lain berlangsung ("sebelum...").',
+contoh: [
+{ jp: '寝る前に、歯を磨きます。', rj: 'Neru mae ni, ha o migakimasu.', id: 'Sebelum tidur, saya menggosok gigi.' },
+{ jp: 'ご飯を食べる前に、手を洗ってください。', rj: 'Gohan o taberu mae ni, te o aratte kudasai.', id: 'Sebelum makan, tolong cuci tangan.' },
+{ jp: '日本へ来る前に、日本語を勉強しました。', rj: 'Nihon e kuru mae ni, Nihongo o benkyou shimashita.', id: 'Sebelum datang ke Jepang, saya belajar bahasa Jepang.' }
+]
+},
+{
+pola: 'それで',
+explain: 'Kata sambung untuk menunjukkan hubungan sebab-akibat langsung dari kalimat sebelumnya ("oleh karena itu / akibatnya...").',
+contoh: [
+{ jp: '昨日は雨が降りました。それで、試合は中止になりました。', rj: 'Kinou wa ame ga furimashita. Sorede, shiai wa chuushi ni narimashita.', id: 'Kemarin hujan turun. Oleh karena itu, pertandingan dibatalkan.' },
+{ jp: '風邪を引きました。それで、学校を休みました。', rj: 'Kaze o hiikimashita. Sorede, gakkou o yasumimashita.', id: 'Saya masuk angin. Oleh karena itu, saya libur sekolah.' },
+{ jp: '事故がありました。それで、電車が遅れています。', rj: 'Jiko ga arimashita. Sorede, densha ga okurete imasu.', id: 'Terjadi kecelakaan. Akibatnya, kereta mengalami keterlambatan.' }
+]
+},
+{
+pola: 'そして',
+explain: 'Kata sambung untuk menggabungkan dua kalimat, kejadian berurutan, atau penambahan informasi ("dan / lalu / kemudian").',
+contoh: [
+{ jp: '顔を洗いました。そして、朝ご飯を食べました。', rj: 'Kao o araimashita. Soshite, asagohan o tabemashita.', id: 'Saya mencuci muka. Kemudian, saya makan siang.' },
+{ jp: '彼女は親切です。そして、とても綺麗です。', rj: 'Kanojo wa shinsetsu desu. Soshite, totemo kirei desu.', id: 'Dia ramah. Dan juga, sangat cantik.' },
+{ jp: '京都へ行きました。そして、古い神社を見ました。', rj: 'Kyouto e ikimashita. Soshite, furui jinja o mimashita.', id: 'Saya pergi ke Kyoto. Lalu, saya melihat kuil tua.' }
+]
+},
+{
+pola: 'それから',
+explain: 'Kata sambung untuk menunjukkan urutan kronologis kegiatan selanjutnya atau penambahan item ("setelah itu / kemudian").',
+contoh: [
+{ jp: '宿題をしました。それから、テレビを見ました。', rj: 'Shukudai o shimashita. Sorekara, terebi o mimashita.', id: 'Saya mengerjakan PR. Setelah itu, saya menonton TV.' },
+{ jp: 'デパートで買い物をしました。それから、映画を見に行きました。', rj: 'Depaato de kaimono o shimashita. Sorekara, eiga o mii ni ikimashita.', id: 'Saya berbelanja di Mal. Kemudian, saya pergi menonton film.' },
+{ jp: 'りんごを二つください。それから、みかんもください。', rj: 'Ringo o futatsu kudasai. Sorekara, mikan mo kudasai.', id: 'Tolong apel dua buah. Kemudian, tolong jeruknya juga.' }
+]
+},
+{
+pola: 'どうしても',
+explain: 'Menyatakan keinginan kuat yang pantang menyerah, atau situasi ketidakmungkinan yang sangat sulit dihindari ("bagaimanapun juga / tetap tidak bisa...").',
+contoh: [
+{ jp: 'どうしても日本へ留学したいです。', rj: 'Doushitemo Nihon e ryuugaku shitai desu.', id: 'Bagaimanapun juga saya sangat ingin kuliah di Jepang.' },
+{ jp: 'どうしてもこの問題がわかりません。', rj: 'Doushitemo kono mondai ga wakarimasen.', id: 'Bagaimanapun juga saya tetap tidak paham soal ini.' },
+{ jp: 'どうしても許せないことです。', rj: 'Doushitemo yurusenai koto desu.', id: 'Bagaimanapun juga itu adalah hal yang tidak bisa dimaafkan.' }
+]
+},
+{
+pola: 'ナA-／イA- そうなN',
+explain: 'Menggunakan kata sifat yang berakhiran そう sebagai kata sifat menerangkan Kata Benda setelahnya ("benda yang kelihatannya...").',
+contoh: [
+{ jp: '美味しそうなケーキですね。', rj: 'Oishisou na keeki desu ne.', id: 'Kue yang kelihatannya enak ya.' },
+{ jp: '優しそうな人に出会いました。', rj: 'Yasashisou na hito ni deaimashita.', id: 'Saya bertemu dengan orang yang kelihatannya baik hati.' },
+{ jp: '難しそうな本を読んでいます。', rj: 'Muzukashisou na hon o yonde imasu.', id: 'Dia sedang membaca buku yang kelihatannya sulit.' }
+]
+},
+{
+pola: 'V-てもらえませんか',
+explain: 'Permintaan bantuan secara halus dan sopan kepada lawan bicara ("bisakah kamu/Anda membantu untuk...").',
+contoh: [
+{ jp: '写真を撮ってもらえませんか。', rj: 'Shashin o totte moraemasen ka.', id: 'Bisakah membantu mengambilkan foto saya?' },
+{ jp: '手伝ってもらえませんか。', rj: 'Tetsudatte moraemasen ka.', id: 'Bisakah membantu saya?' },
+{ jp: 'これを日本語に訳してもらえませんか。', rj: 'Kore o Nihongo ni yakushite moraemasen ka.', id: 'Bisakah tolong terjemahkan ini ke bahasa Jepang?' }
+]
+},
+{
+pola: 'V-てみたいんですが…',
+explain: 'Ungkapan sopan untuk menyampaikan keinginan mencoba melakukan sesuatu sekaligus meminta saran atau respons dari lawan bicara ("saya ingin mencoba... tapi...").',
+contoh: [
+{ jp: '着物を着てみたいんですが、どこで借りられますか。', rj: 'Kimono o kite mitai ndesu ga, doko de kariraremasu ka.', id: 'Saya ingin mencoba memakai kimono, tapi di mana ya bisa menyewanya?' },
+{ jp: '日本のラーメンを食べてみたいんですが、おすすめはありますか。', rj: 'Nihon no raamen o tabete mitai ndesu ga, osusume wa arimasu ka.', id: 'Saya ingin mencoba makan ramen Jepang, tapi apakah ada rekomendasi?' },
+{ jp: '富士山に登ってみたいんですが、いつがいいですか。', rj: 'Fujisan ni nobotte mitai ndesu ga, itsu ga ii desu ka.', id: 'Saya ingin mencoba mendaki Gunung Fuji, tapi kapan waktu yang tepat ya?' }
+]
+}
 ];
 
 /* ======================================================
@@ -2086,39 +2283,73 @@ const flashcardData = {
     { kanji: '調理方法', kunyomi: 'ちょうりほうほう', arti: 'cara memasak' },
     { kanji: '国際交流', kunyomi: 'こくさいこうりゅう', arti: 'pertukaran internasional' },
   ],
+   kataWaktu: [
+     { kanji: '朝', kunyomi: 'あさ', romaji: 'asa', arti: 'Pagi' },
+{ kanji: '昼', kunyomi: 'ひる', romaji: 'hiru', arti: 'Siang' },
+{ kanji: '夜', kunyomi: 'よる', romaji: 'yoru', arti: 'Malam' },
+{ kanji: '晩', kunyomi: 'ばん', romaji: 'ban', arti: 'Malam' },
+{ kanji: '今', kunyomi: 'いま', romaji: 'ima', arti: 'Sekarang' },
+{ kanji: '時', kunyomi: 'とき', romaji: 'toki', arti: 'Waktu / Saat' },
+{ kanji: '分', kunyomi: 'ふん / ぷん', romaji: 'fun / pun', arti: 'Menit' },
+{ kanji: '秒', kunyomi: 'びょう', romaji: 'byou', arti: 'Detik' },
+{ kanji: '今日', kunyomi: 'きょう', romaji: 'kyou', arti: 'Hari ini' },
+{ kanji: '今夜', kunyomi: 'こんや', romaji: 'konya', arti: 'Malam ini' },
+{ kanji: '明日', kunyomi: 'あした', romaji: 'ashita', arti: 'Besok' },
+{ kanji: '昨日', kunyomi: 'きのう', romaji: 'kinou', arti: 'Kemarin' },
+{ kanji: '明後日', kunyomi: 'あさって', romaji: 'asatte', arti: 'Lusa' },
+{ kanji: '一昨日', kunyomi: 'おととい', romaji: 'ototoi', arti: 'Kemarin lusa' },
+{ kanji: '今週', kunyomi: 'こんしゅう', romaji: 'konshuu', arti: 'Minggu ini' },
+{ kanji: '来週', kunyomi: 'らいしゅう', romaji: 'raishuu', arti: 'Minggu depan' },
+{ kanji: '先週', kunyomi: 'せんしゅう', romaji: 'senshuu', arti: 'Minggu lalu' },
+{ kanji: '今月', kunyomi: 'こんげつ', romaji: 'kongetsu', arti: 'Bulan ini' },
+{ kanji: '来月', kunyomi: 'らいげつ', romaji: 'raigetsu', arti: 'Bulan depan' },
+{ kanji: '先月', kunyomi: 'せんげつ', romaji: 'sengetsu', arti: 'Bulan lalu' },
+{ kanji: '今年', kunyomi: 'ことし', romaji: 'kotoshi', arti: 'Tahun ini' },
+{ kanji: '来年', kunyomi: 'らいねん', romaji: 'rainen', arti: 'Tahun depan' },
+{ kanji: '去年', kunyomi: 'きょねん', romaji: 'kyonen', arti: 'Tahun lalu' },
+{ kanji: '午前', kunyomi: 'ごぜん', romaji: 'gozen', arti: 'Pagi / Sebelum tengah hari' },
+{ kanji: '午後', kunyomi: 'ごご', romaji: 'gogo', arti: 'Siang / Sore / Setelah tengah hari' },
+{ kanji: '日曜日', kunyomi: 'にちようび', romaji: 'nichiyoubi', arti: 'Minggu' },
+{ kanji: '月曜日', kunyomi: 'げつようび', romaji: 'getsuyoubi', arti: 'Senin' },
+{ kanji: '火曜日', kunyomi: 'かようび', romaji: 'kayoubi', arti: 'Selasa' },
+{ kanji: '水曜日', kunyomi: 'すいようび', romaji: 'suiyoubi', arti: 'Rabu' },
+{ kanji: '木曜日', kunyomi: 'もくようび', romaji: 'mokuyoubi', arti: 'Kamis' },
+{ kanji: '金曜日', kunyomi: 'きんようび', romaji: 'kinyoubi', arti: 'Jumat' },
+{ kanji: '土曜日', kunyomi: 'どようび', romaji: 'doyoubi', arti: 'Sabtu' }, 
+      ],
 };
 
 /* ======================================================
    DATA QUIZ
    ====================================================== */
 const quizPool = [
-  { q: 'Apa arti dari 「食べる」?', a: 'Makan', w: ['Minum', 'Pergi', 'Tidur', 'Menulis'] },
-  { q: 'Apa arti dari 「飲む」?', a: 'Minum', w: ['Makan', 'Berlari', 'Melihat', 'Membaca'] },
-  { q: 'Apa arti dari 「行く」?', a: 'Pergi', w: ['Datang', 'Kembali', 'Berjalan', 'Berlari'] },
-  { q: 'Apa arti dari 「見る」?', a: 'Melihat', w: ['Mendengar', 'Membaca', 'Menulis', 'Berbicara'] },
-  { q: 'Apa arti dari 「読む」?', a: 'Membaca', w: ['Menulis', 'Melihat', 'Mendengar', 'Berbicara'] },
-  { q: 'Apa arti dari 「書く」?', a: 'Menulis', w: ['Membaca', 'Melihat', 'Membuat', 'Membeli'] },
-  { q: 'Apa arti dari 「買う」?', a: 'Membeli', w: ['Menjual', 'Membawa', 'Menggunakan', 'Membuat'] },
-  { q: 'Apa arti dari 「待つ」?', a: 'Menunggu', w: ['Berjalan', 'Berlari', 'Duduk', 'Berdiri'] },
-  { q: 'Apa arti dari 「勉強する」?', a: 'Belajar', w: ['Bekerja', 'Bermain', 'Beristirahat', 'Mengajar'] },
-  { q: 'Apa arti dari 「大きい」?', a: 'Besar', w: ['Kecil', 'Tinggi', 'Panjang', 'Lebar'] },
-  { q: 'Apa arti dari 「高い」?', a: 'Tinggi / Mahal', w: ['Rendah', 'Murah', 'Kecil', 'Pendek'] },
-  { q: 'Apa arti dari 「暑い」?', a: 'Panas (cuaca)', w: ['Dingin', 'Hangat', 'Sejuk', 'Panas (badan)'] },
-  { q: 'Apa arti dari 「美味しい」?', a: 'Enak', w: ['Tidak enak', 'Pahit', 'Manis', 'Asin'] },
-  { q: 'Apa arti dari 「新しい」?', a: 'Baru', w: ['Lama', 'Bagus', 'Buruk', 'Besar'] },
-  { q: 'Apa arti dari 「いつも」?', a: 'Selalu', w: ['Kadang-kadang', 'Tidak pernah', 'Sering', 'Sudah'] },
-  { q: 'Apa arti dari 「もう」?', a: 'Sudah', w: ['Belum', 'Masih', 'Sekarang', 'Nanti'] },
-  { q: 'Apa arti dari 「まだ」?', a: 'Belum', w: ['Sudah', 'Sekarang', 'Tidak pernah', 'Selalu'] },
-  { q: 'Apa arti dari 「ゆっくり」?', a: 'Perlahan', w: ['Cepat', 'Sering', 'Sangat', 'Sedikit'] },
-  { q: 'Apa arti dari 「ぜんぜん」?', a: 'Sama sekali', w: ['Kadang-kadang', 'Tidak pernah', 'Sering', 'Sudah'] },
-  { q: 'Apa arti dari 「かならず」?', a: 'pasti', w: ['Belum', 'Masih', 'Sekarang', 'Nanti'] },
-  { q: 'Apa arti dari 「ぜったいに」?', a: 'mutlak', w: ['harus', 'langsung', 'pernah', 'Selalu'] },
-  { q: 'Apa arti dari 「きちんと」?', a: 'Rapi/tepat', w: ['Cepat', 'Sering', 'Sangat', 'Sedikit'] },
-  { q: 'Apa arti dari 「学校」?', a: 'Sekolah', w: ['Rumah sakit', 'Kantor', 'Toko', 'Rumah'] },
-  { q: 'Apa arti dari 「友達」?', a: 'Teman', w: ['Guru', 'Keluarga', 'Tetangga', 'Saudara'] },
-  { q: 'Apa arti dari 「天気」?', a: 'Cuaca', w: ['Waktu', 'Musim', 'Suhu', 'Angin'] },
-  { q: 'Apa arti dari 「写真」?', a: 'Foto', w: ['Film', 'Gambar', 'Buku', 'Surat'] },
-  { q: 'Apa arti dari 「仕事」?', a: 'Pekerjaan', w: ['Waktu', 'Uang', 'Sekolah', 'Rumah'] },
+  { q: 'Apa arti dari 「食べる」', a: 'Makan', w: ['Minum', 'Pergi', 'Tidur', 'Menulis'] },
+  { q: 'Apa arti dari 「飲む」', a: 'Minum', w: ['Makan', 'Berlari', 'Melihat', 'Membaca'] },
+  { q: 'Apa arti dari 「行く」', a: 'Pergi', w: ['Datang', 'Kembali', 'Berjalan', 'Berlari'] },
+  { q: 'Apa arti dari 「見る」', a: 'Melihat', w: ['Mendengar', 'Membaca', 'Menulis', 'Berbicara'] },
+  { q: 'Apa arti dari 「読む」', a: 'Membaca', w: ['Menulis', 'Melihat', 'Mendengar', 'Berbicara'] },
+  { q: 'Apa arti dari 「書く」', a: 'Menulis', w: ['Membaca', 'Melihat', 'Membuat', 'Membeli'] },
+  { q: 'Apa arti dari 「買う」', a: 'Membeli', w: ['Menjual', 'Membawa', 'Menggunakan', 'Membuat'] },
+  { q: 'Apa arti dari 「待つ」', a: 'Menunggu', w: ['Berjalan', 'Berlari', 'Duduk', 'Berdiri'] },
+  { q: 'Apa arti dari 「勉強する」', a: 'Belajar', w: ['Bekerja', 'Bermain', 'Beristirahat', 'Mengajar'] },
+  { q: 'Apa arti dari 「大きい」', a: 'Besar', w: ['Kecil', 'Tinggi', 'Panjang', 'Lebar'] },
+  { q: 'Apa arti dari 「高い」', a: 'Tinggi / Mahal', w: ['Rendah', 'Murah', 'Kecil', 'Pendek'] },
+  { q: 'Apa arti dari 「暑い」', a: 'Panas (cuaca)', w: ['Dingin', 'Hangat', 'Sejuk', 'Panas (badan)'] },
+  { q: 'Apa arti dari 「美味しい」', a: 'Enak', w: ['Tidak enak', 'Pahit', 'Manis', 'Asin'] },
+  { q: 'Apa arti dari 「新しい」', a: 'Baru', w: ['Lama', 'Bagus', 'Buruk', 'Besar'] },
+  { q: 'Apa arti dari 「いつも」', a: 'Selalu', w: ['Kadang-kadang', 'Tidak pernah', 'Sering', 'Sudah'] },
+  { q: 'Apa arti dari 「もう」', a: 'Sudah', w: ['Belum', 'Masih', 'Sekarang', 'Nanti'] },
+  { q: 'Apa arti dari 「まだ」', a: 'Belum', w: ['Sudah', 'Sekarang', 'Tidak pernah', 'Selalu'] },
+  { q: 'Apa arti dari 「ゆっくり」', a: 'Perlahan', w: ['Cepat', 'Sering', 'Sangat', 'Sedikit'] },
+  { q: 'Apa arti dari 「ぜんぜん」', a: 'Sama sekali', w: ['Kadang-kadang', 'Tidak pernah', 'Sering', 'Sudah'] },
+  { q: 'Apa arti dari 「かならず」', a: 'pasti', w: ['Belum', 'Masih', 'Sekarang', 'Nanti'] },
+  { q: 'Apa arti dari 「ぜったいに」', a: 'mutlak', w: ['harus', 'langsung', 'pernah', 'Selalu'] },
+  { q: 'Apa arti dari 「きちんと」', a: 'Rapi/tepat', w: ['Cepat', 'Sering', 'Sangat', 'Sedikit'] },
+  { q: 'Apa arti dari 「学校」', a: 'Sekolah', w: ['Rumah sakit', 'Kantor', 'Toko', 'Rumah'] },
+  { q: 'Apa arti dari 「友達」', a: 'Teman', w: ['Guru', 'Keluarga', 'Tetangga', 'Saudara'] },
+  { q: 'Apa arti dari 「天気」', a: 'Cuaca', w: ['Waktu', 'Musim', 'Suhu', 'Angin'] },
+  { q: 'Apa arti dari 「写真」', a: 'Foto', w: ['Film', 'Gambar', 'Buku', 'Surat'] },
+  { q: 'Apa arti dari 「仕事」', a: 'Pekerjaan', w: ['Waktu', 'Uang', 'Sekolah', 'Rumah'] },
   { q: 'Pola 「~たい」 digunakan untuk?', a: 'Menyatakan keinginan', w: ['Menyatakan kewajiban', 'Menyatakan kemampuan', 'Menyatakan kemungkinan', 'Menyatakan perintah'] },
   { q: 'Pola 「~てください」 artinya?', a: 'Tolong ~', w: ['Harus ~', 'Bisa ~', 'Mungkin ~', 'Lebih baik ~'] },
   { q: 'Pola 「~なければなりません」 artinya?', a: 'Harus', w: ['Tidak harus', 'Mungkin', 'Lebih baik', 'Tolong'] },
@@ -2127,14 +2358,14 @@ const quizPool = [
   { q: 'Pola 「~たところ」 artinya?', a: 'Baru saja', w: ['Harus ~', 'Bisa ~', 'Mungkin ~', 'Lebih baik ~'] },
   { q: 'Pola 「~たことがある」 artinya?', a: 'Pernah', w: ['Tidak harus', 'Mungkin', 'Kadang-kadang', 'Keinginan'] },
   { q: 'Pola 「~ましょうか」 artinya?', a: 'Menawarkan bantuan', w: ['Pasti', 'Harus', 'Mengajak', 'Meminta ijin'] },
-  { q: 'Apa arti dari 「とても」?', a: 'Sangat', w: ['Sedikit', 'Sering', 'Tidak sama sekali', 'Kadang-kadang'] },
-  { q: 'Apa arti dari 「車」?', a: 'Mobil', w: ['Sepeda', 'Bus', 'Kereta', 'Pesawat'] },
-  { q: 'Apa arti dari 「広い」?', a: 'Luas', w: ['Sempit', 'Tinggi', 'Panjang', 'Besar'] },
-  { q: 'Apa arti dari 「頭」?', a: 'Kepala', w: ['kaki', 'Tangan', 'Wajah', 'Badan'] },
-  { q: 'Apa arti dari 「雨」?', a: 'Hujan', w: ['Salju', 'Gunung', 'Sungai', 'Rumah'] },
-  { q: 'Apa arti dari 「両親」?', a: 'Orang tua', w: ['Waktu', 'Musim', 'Suhu', 'Angin'] },
-  { q: 'Apa arti dari 「医者」?', a: 'Dokter', w: ['Guru', 'Karyawan', 'Pegawai', 'Pegawai toko'] },
-  { q: 'Apa arti dari 「時計」?', a: 'Jam', w: ['Kantor', 'Uang', 'Sekolah', 'Rumah'] },
+  { q: 'Apa arti dari 「とても」', a: 'Sangat', w: ['Sedikit', 'Sering', 'Tidak sama sekali', 'Kadang-kadang'] },
+  { q: 'Apa arti dari 「車」', a: 'Mobil', w: ['Sepeda', 'Bus', 'Kereta', 'Pesawat'] },
+  { q: 'Apa arti dari 「広い」?, a: 'Luas', w: ['Sempit', 'Tinggi', 'Panjang', 'Besar'] },
+  { q: 'Apa arti dari 「頭」', a: 'Kepala', w: ['kaki', 'Tangan', 'Wajah', 'Badan'] },
+  { q: 'Apa arti dari 「雨」', a: 'Hujan', w: ['Salju', 'Gunung', 'Sungai', 'Rumah'] },
+  { q: 'Apa arti dari 「両親」', a: 'Orang tua', w: ['Waktu', 'Musim', 'Suhu', 'Angin'] },
+  { q: 'Apa arti dari 「医者」', a: 'Dokter', w: ['Guru', 'Karyawan', 'Pegawai', 'Pegawai toko'] },
+  { q: 'Apa arti dari 「時計」', a: 'Jam', w: ['Kantor', 'Uang', 'Sekolah', 'Rumah'] },
    { q: 'Apa arti dari 「」?', a: 'Sangat', w: ['Sedikit', 'Sering', 'Tidak sama sekali', 'Kadang-kadang'] },
   { q: 'Jawaban dari 「ありがとうございました」?', a: 'どうしたしまして', w: ['だいぞうぶです', 'けっこうです', 'はい、そうです', 'よかった'] },
   { q: 'Jawban dari 「どうぞ食べてみて」?', a: 'いただきます', w: ['ごちそうさまでした', 'ありがとうございました。', '美味しいですよ', 'はい、けっこうです'] },
