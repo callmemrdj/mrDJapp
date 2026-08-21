@@ -29,7 +29,7 @@ const kosakataData = {
     { kanji: '歩く', hiragana: 'あるく ', romaji: 'aruku', arti: 'Berjalan kaki' },
     { kanji: '泣く', hiragana: 'なく ', romaji: 'naku', arti: 'Menangis' },
     { kanji: '鳴く', hiragana: 'なく ', romaji: 'naku', arti: 'Berbunyi / Bersuara (hewan)' },
-    { kanji: 'たたく', hiragana: 'たたく ', romaji: 'tataku', arti: 'Memukul / Mengetuk' },
+    { kanji: '叩く', hiragana: 'たたく ', romaji: 'tataku', arti: 'Memukul / Mengetuk' },
     { kanji: '働く', hiragana: 'はたらく ', romaji: 'hataraku', arti: 'Bekerja' },
     { kanji: '磨く', hiragana: 'みがく ', romaji: 'migaku', arti: 'Menggosok / Menyikat' },
     { kanji: '着く', hiragana: 'つく ', romaji: 'tsuku', arti: 'Tiba / Sampai' },
@@ -107,7 +107,6 @@ const kosakataData = {
     { kanji: '呼ぶ', hiragana: 'よぶ ', romaji: 'yobu', arti: 'Memanggil' },
     { kanji: '結ぶ', hiragana: 'むすぶ ', romaji: 'musubu', arti: 'Mengikat' },
     { kanji: '見る', hiragana: 'みる ', romaji: 'miru', arti: 'Melihat' },
-    { kanji: 'いる', hiragana: 'いる ', romaji: 'iru', arti: 'Ada (benda hidup)' },
     { kanji: '出来る', hiragana: 'できる ', romaji: 'dekiru', arti: 'Bisa / Mampu / Selesai dibuat' },
     { kanji: '閉じる', hiragana: 'とじる ', romaji: 'tojiru', arti: 'Menutup (buku/mata)' },
     { kanji: '着る', hiragana: 'きる ', romaji: 'kiru', arti: 'Memakai (pakaian atas)' },
@@ -855,7 +854,8 @@ const kosakataData = {
       ],
     },
     {
-      kanji: 'きゅうに（急に）',
+      kanji: '急に',
+      hiragana: 'きゅうに',
       arti: 'Tiba-tiba',
       explain: 'Menyatakan peristiwa atau perubahan keadaan yang terjadi secara mendadak dan tanpa terduga ("tiba-tiba / secara mendadak").',
       contoh: [
@@ -963,7 +963,7 @@ const kosakataData = {
       ],
     },
     {
-kanji: '～なかなか',
+kanji: 'なかなか',
 arti: 'tak kunjung...',
 explain: 'Jika diikuti bentuk negatif, menyatakan bahwa suatu tindakan/hal sangat sulit terwujud atau tidak kunjung terjadi meskipun sudah diusahakan ("tak kunjung / sulit untuk..."). Jika diikuti bentuk positif, berarti "lumayan / cukup".',
 contoh: [
@@ -972,18 +972,7 @@ contoh: [
 { jp: '日本語の作文がなかなか上手ですね。', rj: 'Nihongo no sakubun ga nakanaka jouzu desu ne.', id: 'Karangan bahasa Jepangmu lumayan bagus ya.' }
 ]
 },
-{
-kanji: '全然',
-hirgana: 'ぜんぜん',
-arti: 'Sama sekali tidak...',
-explain: 'Digunakan bersama bentuk negatif untuk menegaskan penyangkalan secara total ("sama sekali tidak...").',
-contoh: [
-{ jp: '昨日の夜はぜんぜん寝られませんでした。', rj: 'Kinou no yoru wa zenzen neraremasen deshita.', id: 'Tadi malam saya sama sekali tidak bisa tidur.' },
-{ jp: 'この問題はぜんぜんわかりません。', rj: 'Kono mondai wa zenzen wakarimasen.', id: 'Saya sama sekali tidak paham soal ini.' },
-{ jp: 'お酒はぜんぜん飲みません。', rj: 'Osake wa zenzen nomimasen.', id: 'Saya sama sekali tidak minum alkohol.' }
-]
-}, 
-  ],
+],
 };
 
 /* ======================================================
@@ -1612,7 +1601,7 @@ contoh: [
 ],
 },
 {
-pola: '～ようと思う（～意向形＋と思う）',
+pola: '～ようと思う',
 explain: 'Menyatakan keputusan SPONTAN atau niat yang MENDADAK dibuat pada saat berbicara menggunakan bentuk mengajak/maksud (意向形).',
 contoh: [
 { jp: '疲れたから、もう寝ようと思います。', rj: 'Tsukareta kara, mou neyou to omoimasu.', id: 'Karena lelah, saya pikir saya mau tidur saja.' },
@@ -1621,7 +1610,7 @@ contoh: [
 ],
 },
 {
-pola: '～ようと思っている（～意向形＋と思っている）',
+pola: '～ようと思っている',
 explain: 'Menyatakan niat atau rencana yang SUDAH DIPERTIMBANGKAN sejak beberapa waktu lalu dan masih berlanjut hingga sekarang.',
 contoh: [
 { jp: '来月、引っ越ししようと思っています。', rj: 'Raigetsu, hikkoshi shiyou to omotte imasu.', id: 'Bulan depan saya berencana/berniat untuk pindah rumah.' },
