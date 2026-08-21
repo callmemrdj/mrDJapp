@@ -962,6 +962,27 @@ const kosakataData = {
         { jp: 'りんごを一つだけ買いました。', rj: 'Ringo o hitotsu dake kaimashita.', id: 'Saya hanya membeli satu buah apel.' },
       ],
     },
+    {
+kanji: '～なかなか',
+arti: 'tak kunjung...',
+explain: 'Jika diikuti bentuk negatif, menyatakan bahwa suatu tindakan/hal sangat sulit terwujud atau tidak kunjung terjadi meskipun sudah diusahakan ("tak kunjung / sulit untuk..."). Jika diikuti bentuk positif, berarti "lumayan / cukup".',
+contoh: [
+{ jp: 'バスがなかなか来ません。', rj: 'Basu ga nakanaka kimasen.', id: 'Bus tak kunjung datang.' },
+{ jp: '漢字がなかなか覚えられません。', rj: 'Kanji ga nakanaka oboeraremasen.', id: 'Kanji sangat sulit untuk dihafalkan.' },
+{ jp: '日本語の作文がなかなか上手ですね。', rj: 'Nihongo no sakubun ga nakanaka jouzu desu ne.', id: 'Karangan bahasa Jepangmu lumayan bagus ya.' }
+]
+},
+{
+kanji: '全然',
+hirgana: 'ぜんぜん',
+arti: 'Sama sekali tidak...',
+explain: 'Digunakan bersama bentuk negatif untuk menegaskan penyangkalan secara total ("sama sekali tidak...").',
+contoh: [
+{ jp: '昨日の夜はぜんぜん寝られませんでした。', rj: 'Kinou no yoru wa zenzen neraremasen deshita.', id: 'Tadi malam saya sama sekali tidak bisa tidur.' },
+{ jp: 'この問題はぜんぜんわかりません。', rj: 'Kono mondai wa zenzen wakarimasen.', id: 'Saya sama sekali tidak paham soal ini.' },
+{ jp: 'お酒はぜんぜん飲みません。', rj: 'Osake wa zenzen nomimasen.', id: 'Saya sama sekali tidak minum alkohol.' }
+]
+}, 
   ],
 };
 
@@ -1404,6 +1425,24 @@ contoh: [
       { jp: '昨日、教えたばかりなのにもう忘れちゃったの？', rj: 'kinou, oshietabakari na noni', id: 'Meski baru kemarin saya kasi tahu, kamu lupa lagi?' },
     ],
   },
+{
+pola: '～（Kamus）ところ',
+explain: 'Menyatakan momen tepat sebelum suatu tindakan/kejadian akan dimulai ("baru mau / hendak / hampir...").',
+contoh: [
+{ jp: 'これからご飯を食べるところです。', rj: 'Kore kara gohan o taberu tokoro desu.', id: 'Saya baru mau makan sekarang.' },
+{ jp: 'ちょうど出かけるところですから、後で電話します。', rj: 'Choudo dekakeru tokoro desu kara, ato de denwa shimasu.', id: 'Karena saya baru hendak pergi keluar, nanti saya telepon lagi.' },
+{ jp: '映画が始まるところです。', rj: 'Eiga ga hajimaru tokoro desu.', id: 'Filmnya baru mau dimulai.' }
+]
+},
+{
+pola: '～ているところ',
+explain: 'Menyatakan bahwa suatu tindakan/kegiatan sedang berlangsung tepat pada saat itu ("sedang berada dalam proses...").',
+contoh: [
+{ jp: '今、宿題をしているところです。', rj: 'Ima, shukudai o shite iru tokoro desu.', id: 'Sekarang saya sedang mengerjakan PR.' },
+{ jp: '友達と日本語を練習しているところです。', rj: 'Tomodachi to Nihongo o renshuu shite iru tokoro desu.', id: 'Saya sedang berlatih bahasa Jepang bersama teman.' },
+{ jp: '父は車を洗っているところです。', rj: 'Chichi wa kuruma o aratte iru tokoro desu.', id: 'Ayah sedang mencuci mobil.' }
+]
+},
   {
     pola: '～たところ',
     explain: 'Artinya "baru saja". Sama seperti [~ta bakari] namun [~ta tokoro] lebih pendek dengan waktu kejadiannya',
