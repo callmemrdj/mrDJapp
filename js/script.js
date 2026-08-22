@@ -543,6 +543,101 @@ function initIrodorigoi() {
   IrodoriGoiModule.init();
 }
 
+// ============================================================
+// MODUL: Percakapan (daftar topik -> layar dialog + audio)
+// Data (percakapanData) ada di js/data-percakapan.js -> file itu
+// HARUS dimuat SEBELUM app.js di index.html.
+// ============================================================
+const PercakapanModule = (function () {
+  let listViewEl, detailViewEl, listEl, titleEl, dialogEl, audioEl;
+  let isSetup = false;
+
+  function renderTopicList() {
+    listEl.innerHTML = percakapanData
+      .map(
+        (item) => `
+        <div class="percakapan-topic-card" data-id="${item.id}" role="button" tabindex="0">
+          <div class="percakapan-topic-icon"><i class="fas fa-comments"></i></div>
+          <div class="percakapan-topic-info">
+            <div class="percakapan-topic-title">${item.topik}</div>
+            <div class="percakapan-topic-sub">${item.dialog.length} baris percakapan</div>            
+          </div>
+          <i class="fas fa-chevron-right percakapan-topic-arrow"></i>
+        </div>`,
+      )
+      .join('');
+
+    listEl.querySelectorAll('.percakapan-topic-card').forEach((card) => {
+      card.addEventListener('click', () => showDetail(Number(card.getAttribute('data-id'))));
+    });
+  }
+
+  function renderDialogBubble(line) {
+    const sideClass = line.speaker === 'A' ? 'is-a' : 'is-b';
+    return `
+      <div class="percakapan-bubble-row ${sideClass}">
+        <span class="percakapan-bubble-speaker">${line.speaker}</span>
+        <div class="percakapan-bubble">${line.text}</div>
+      </div>`;
+  }
+
+  function showDetail(id) {
+    const topic = percakapanData.find((t) => t.id === id);
+    if (!topic) return;
+
+    titleEl.textContent = topic.topik;
+    dialogEl.innerHTML = topic.dialog.map(renderDialogBubble).join('');
+    artiEl.innerHTML = topic.arti || '';
+
+    // audio hanya di-set saat topik dibuka (bukan preload semua), sumbernya boleh dari domain lain
+    audioEl.src = topic.audio;
+    audioEl.load();
+
+    listViewEl.style.display = 'none';
+    detailViewEl.style.display = 'block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function backToList() {
+    stopAudio();
+    detailViewEl.style.display = 'none';
+    listViewEl.style.display = 'block';
+  }
+
+  function stopAudio() {
+    if (audioEl) {
+      audioEl.pause();
+      audioEl.currentTime = 0;
+    }
+  }
+
+  function init() {
+    listViewEl = document.getElementById('percakapanListView');
+    detailViewEl = document.getElementById('percakapanDetailView');
+    listEl = document.getElementById('percakapanList');
+    titleEl = document.getElementById('percakapanDetailTitle');
+    dialogEl = document.getElementById('percakapanDialog');
+    artiEl = document.getElementById('percakapanArti');
+    audioEl = document.getElementById('percakapanAudio');
+
+    if (!isSetup) {
+      document.getElementById('percakapanBackBtn').addEventListener('click', backToList);
+      isSetup = true;
+    }
+
+    // selalu mulai dari daftar topik tiap kali halaman ini dibuka
+    detailViewEl.style.display = 'none';
+    listViewEl.style.display = 'block';
+    renderTopicList();
+  }
+
+  return { init, stopAudio };
+})();
+
+function initPercakapan() {
+  PercakapanModule.init();
+}
+
 /* 键盘可访问性 */
 document.querySelectorAll('.menu-card').forEach((card) => {
   card.addEventListener('keydown', (e) => {
