@@ -34,6 +34,7 @@ function goTo(page) {
   if (page === 'kosakata') (initKosakata(), endQuiz());
   if (page === 'tatabahasa') (initTatabahasa(),endQuiz());
   if (page === 'flashcard') (initFlashcard(),endQuiz());
+  if (page === 'percakapan') (initPercakapan(), endQuiz());
   if (page === 'quiz') initQuiz();
   if (page === 'irodori') (initIrodorigoi(), endQuiz());
 
