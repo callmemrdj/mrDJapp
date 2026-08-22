@@ -410,6 +410,139 @@ function endQuiz() {
   clearInterval(quizTimer);
 }
 
+// ============================================================
+// MODUL: Kosakata Irodori (tab bab + pencarian + list mobile)
+// ============================================================
+const IrodoriGoiModule = (function () {
+  const ALL = irodoriGoi.kosakataIrodori;
+  const CHUNK_SIZE = 40;
+
+  let currentBab = 'semua';
+  let currentQuery = '';
+  let visibleCount = CHUNK_SIZE;
+  let searchDebounceTimer = null;
+  let isSetup = false; // guard supaya listener tidak dipasang berkali-kali
+
+  let tabsEl, listEl, countEl, searchInputEl;
+
+  function getDaftarBab() {
+    const set = new Set(ALL.map((item) => item.bab).filter((b) => b !== undefined && b !== null));
+    return Array.from(set).sort((a, b) => a - b);
+  }
+
+  function buildTabs() {
+    const babList = getDaftarBab();
+    const tabs = [{ id: 'semua', label: 'Semua' }].concat(babList.map((b) => ({ id: b, label: 'Bab ' + b })));
+
+    tabsEl.innerHTML = tabs
+      .map(
+        (tab) =>
+          `<button type="button" class="irodori-tab-item${tab.id === currentBab ? ' active' : ''}"
+                    data-bab="${tab.id}" role="tab" aria-selected="${tab.id === currentBab}">
+             ${tab.label}
+           </button>`,
+      )
+      .join('');
+
+    tabsEl.querySelectorAll('.irodori-tab-item').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const val = btn.getAttribute('data-bab');
+        currentBab = val === 'semua' ? 'semua' : Number(val);
+        visibleCount = CHUNK_SIZE;
+        buildTabs();
+        renderIrodorigoi();
+      });
+    });
+  }
+
+  function normalize(str) {
+    return (str || '').toString().toLowerCase();
+  }
+
+  function getFilteredData() {
+    const query = normalize(currentQuery).trim();
+    return ALL.filter((item) => {
+      const cocokBab = currentBab === 'semua' || item.bab === currentBab;
+      if (!cocokBab) return false;
+      if (!query) return true;
+      return normalize(item.kanji).includes(query) || normalize(item.hiragana).includes(query) || normalize(item.romaji).includes(query) || normalize(item.arti).includes(query);
+    });
+  }
+
+  function renderWordItem(item) {
+    return `
+      <div class="irodori-word-item" role="listitem">
+        <div class="irodori-word-main">
+          <div class="irodori-word-kanji">${item.kanji}</div>
+          <div class="irodori-word-hiragana">${item.hiragana}</div>
+          <div class="irodori-word-romaji">${item.romaji}</div>
+          ${item.bab !== undefined ? `<span class="irodori-word-bab">Bab ${item.bab}</span>` : ''}
+        </div>
+        <div class="irodori-word-arti">${item.arti}</div>
+      </div>`;
+  }
+
+  function renderIrodorigoi() {
+    const filtered = getFilteredData();
+    const totalFiltered = filtered.length;
+    const toShow = filtered.slice(0, visibleCount);
+
+    if (totalFiltered === 0) {
+      listEl.innerHTML = `<div class="irodori-empty">Kata tidak ditemukan.</div>`;
+      countEl.textContent = '0 kata';
+      return;
+    }
+
+    countEl.textContent = `${totalFiltered} kata ditemukan`;
+    let html = toShow.map(renderWordItem).join('');
+
+    if (visibleCount < totalFiltered) {
+      html += `<button type="button" class="irodori-load-more" id="irodoriLoadMore">
+                 Muat lebih banyak (${totalFiltered - visibleCount} tersisa)
+               </button>`;
+    }
+    listEl.innerHTML = html;
+
+    const loadMoreBtn = document.getElementById('irodoriLoadMore');
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        visibleCount += CHUNK_SIZE;
+        renderIrodorigoi();
+      });
+    }
+  }
+
+  function handleSearchInput() {
+    currentQuery = searchInputEl.value;
+    visibleCount = CHUNK_SIZE;
+    clearTimeout(searchDebounceTimer);
+    searchDebounceTimer = setTimeout(renderIrodorigoi, 200);
+  }
+
+  // Ini yang dipanggil dari goTo('irodorigoi')
+  function init() {
+    tabsEl = document.getElementById('irodoriTabs');
+    listEl = document.getElementById('irodoriList');
+    countEl = document.getElementById('irodoriResultCount');
+    searchInputEl = document.getElementById('irodoriSearchInput');
+
+    if (!isSetup) {
+      searchInputEl.removeAttribute('oninput');
+      searchInputEl.addEventListener('input', handleSearchInput);
+      isSetup = true;
+    }
+
+    buildTabs();
+    renderIrodorigoi();
+  }
+
+  return { init, render: renderIrodorigoi };
+})();
+
+function initIrodorigoi() {
+  IrodoriGoiModule.init();
+}
+
 /* 键盘可访问性 */
 document.querySelectorAll('.menu-card').forEach((card) => {
   card.addEventListener('keydown', (e) => {
