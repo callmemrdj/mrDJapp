@@ -2654,11 +2654,12 @@ const quizPool = [
 // ============================================================
 const irodoriGoi = {
   kosakataIrodori: [
-    { kanji: '合気道', hiragana: 'あいきどう', romaji: 'aikido', arti: 'aikido' },
-    { kanji: 'あいさつ', hiragana: 'あいさつ', romaji: 'aisastu', arti: 'ucapan salam' },
-    { kanji: 'アイス', hiragana: 'アイス', romaji: 'aisu', arti: 'es' },
+    { bab: 1, kanji: '合気道', hiragana: 'あいきどう', romaji: 'aikido', arti: 'aikido' },
+    { bab: 1, kanji: 'あいさつ', hiragana: 'あいさつ', romaji: 'aisastu', arti: 'ucapan salam' },
+    { bab: 1, kanji: 'アイス', hiragana: 'アイス', romaji: 'aisu', arti: 'es' },
     { kanji: 'アイスクリーム', hiragana: 'アイスクリーム', romaji: 'aisukuriimu', arti: 'es krim' },
     { kanji: 'アイスコーヒー', hiragana: 'アイスコーヒー', romaji: 'aisu-koohii', arti: 'es kopi' },
+   /*
     { kanji: '間　（～と～の間）', hiragana: 'あいだ　（～と～のあいだ）', romaji: 'aida', arti: 'antara' },
     { kanji: '間をあける', hiragana: 'あいだをあける', romaji: 'aida o akeru', arti: 'membuka ruang' },
     { kanji: '相手', hiragana: 'あいて', romaji: 'aite', arti: 'partner' },
@@ -5788,7 +5789,7 @@ const irodoriGoi = {
     { kanji: '中心にしている', hiragana: 'ちゅうしんにしている', romaji: 'muchuu ni shiteiru', arti: 'fokus; asyik pada' },
 
     //Kalau ingin ditampilkan per BAB maka ikuti penulisan berikut
-    /*
+    
     { bab: 1, kanji: '間　（～と～の間）', hiragana: 'あいだ　（～と～のあいだ）', romaji: 'aida', arti: 'antara' },
     { bab: 1, kanji: '間をあける', hiragana: 'あいだをあける', romaji: 'aida o akeru', arti: 'membuka ruang' },
     { bab: 2, kanji: '間をあける', hiragana: 'あいだをあける', romaji: 'aida o akeru', arti: 'membuka ruang' },
