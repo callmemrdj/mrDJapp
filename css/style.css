@@ -238,6 +238,10 @@ body {
   background: linear-gradient(135deg, #fce7e7, #fc5757);
   color: #f5f0f1;
 }
+.menu-card:nth-child(6) .icon-wrap {
+  background: linear-gradient(135deg, #b5f8c0, #0ef70e);
+  color: #ffffff;
+}
 .menu-card h3 {
   font-size: 1rem;
   font-weight: 700;
@@ -1182,4 +1186,116 @@ body {
   padding: 0 16px 6px;
   font-size: 12px;
   opacity: 0.55;
+}
+/* ==== Fallback styles untuk modul Percakapan ==== */
+.percakapan-list {
+  padding: 12px 16px 90px;
+}
+.percakapan-topic-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+}
+.percakapan-topic-icon {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(108, 92, 231, 0.18);
+  color: #a29bfe;
+  font-size: 16px;
+}
+.percakapan-topic-info {
+  flex: 1;
+  min-width: 0;
+}
+.percakapan-topic-title {
+  font-weight: 700;
+  font-size: 15px;
+}
+.percakapan-topic-sub {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 2px;
+}
+.percakapan-topic-arrow {
+  opacity: 0.4;
+  font-size: 13px;
+}
+
+.percakapan-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+}
+.percakapan-dialog {
+  padding: 8px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.percakapan-arti {
+  margin: 4px 16px 16px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  font-size: 13px;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+.percakapan-arti:empty {
+  display: none;
+}
+.percakapan-bubble-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.percakapan-bubble-row.is-b {
+  flex-direction: row-reverse;
+}
+.percakapan-bubble-speaker {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.1);
+}
+.percakapan-bubble {
+  max-width: 78%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.percakapan-bubble-row.is-b .percakapan-bubble {
+  background: rgba(108, 92, 231, 0.18);
+  border-color: rgba(108, 92, 231, 0.25);
+}
+.percakapan-audio-wrap {
+  position: sticky;
+  bottom: 0;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+  background: rgba(20, 20, 30, 0.85);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
