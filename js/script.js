@@ -35,6 +35,7 @@ function goTo(page) {
   if (page === 'tatabahasa') (initTatabahasa(),endQuiz());
   if (page === 'flashcard') (initFlashcard(),endQuiz());
   if (page === 'quiz') initQuiz();
+  if (page === 'irodori') (initIrodorigoi(), endQuiz());
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
