@@ -43,6 +43,11 @@
             <h3>Quiz</h3>
             <p>Tes pilihan ganda dengan timer</p>
           </div>
+          <div class="menu-card" onclick="goTo('irodori')" role="button" tabindex="0" aria-label="Irodorigoi">
+            <div class="icon-wrap"><i class="fas fa-book-open"></i></div>
+            <h3>IRODORI</h3>
+            <p>Kosakata buku Irodori</p>
+          </div>
         </div>
       </section>
 
@@ -127,6 +132,24 @@
         </div>
         <div id="quizArea"></div>
       </section>
+            <!-- ===== Irodori (Kosakata Irodori) ===== -->
+      <section id="page-irodori" class="page">
+        <div class="sticky-header" id="irodoriSticky">
+          <div class="top-bar">
+            <button class="back-btn" onclick="goTo('home')" aria-label="Kembali"><i class="fas fa-arrow-left"></i></button>
+            <span class="page-title">Kosakata Irodori</span>
+          </div>
+          <div class="search-wrap">
+            <div class="search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" id="irodoriSearchInput" placeholder="Cari kosakata..." aria-label="Cari kosakata" />
+            </div>
+          </div>
+          <div class="tab-bar" id="irodoriTabs" role="tablist"></div>
+        </div>
+        <div class="irodori-result-count" id="irodoriResultCount"></div>
+        <div class="word-list" id="irodoriList" role="list"></div>
+      </section>
     </div>
 
     <!-- NAVIGASI -->
@@ -136,6 +159,7 @@
         <a class="nav-item" data-page="tatabahasa" onclick="goTo('tatabahasa')" role="button" tabindex="0"><i class="fas fa-list-check"></i><span>Tatabahasa</span></a>
         <a class="nav-item" data-page="flashcard" onclick="goTo('flashcard')" role="button" tabindex="0"><i class="fas fa-clone"></i><span>Flashcard</span></a>
         <a class="nav-item" data-page="quiz" onclick="goTo('quiz')" role="button" tabindex="0"><i class="fas fa-bolt"></i><span>Quiz</span></a>
+        <a class="nav-item" data-page="irodori" onclick="goTo('irodori')" role="button" tabindex="0"><i class="fas fa-book-open"></i><span>Irodori</span></a>
       </div>
     </nav>
     <script src="data/datasoal.js"></script>
