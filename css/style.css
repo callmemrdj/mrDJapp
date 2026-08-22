@@ -234,6 +234,10 @@ body {
   background: linear-gradient(135deg, #fce7f3, #fbcfe8);
   color: #9d174d;
 }
+.menu-card:nth-child(5) .icon-wrap {
+  background: linear-gradient(135deg, #fce7e7, #fc5757);
+  color: #f5f0f1;
+}
 .menu-card h3 {
   font-size: 1rem;
   font-weight: 700;
@@ -1069,4 +1073,113 @@ body {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+/* ==== Fallback styles untuk modul Kosakata Irodori ==== */
+#kosakataTabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px 16px 10px;
+  scrollbar-width: none;
+}
+#kosakataTabs::-webkit-scrollbar {
+  display: none;
+}
+.irodori-tab-item {
+  flex: 0 0 auto;
+  padding: 7px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.08);
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+.irodori-tab-item.active {
+  background: #6c5ce7;
+  border-color: #6c5ce7;
+  color: #fff;
+}
+#kosakataList {
+  padding: 8px 16px 90px;
+}
+.irodori-word-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.irodori-word-main {
+  min-width: 0;
+}
+.irodori-word-kanji {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  word-break: break-word;
+}
+.irodori-word-hiragana {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+.irodori-word-romaji {
+  font-size: 11px;
+  opacity: 0.5;
+  margin-top: 2px;
+  font-style: italic;
+}
+.irodori-word-arti {
+  flex: 0 0 auto;
+  max-width: 42%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.irodori-word-bab {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(108, 92, 231, 0.18);
+  color: #a29bfe;
+}
+.irodori-empty {
+  text-align: center;
+  opacity: 0.6;
+  padding: 40px 16px;
+  font-size: 14px;
+}
+.irodori-load-more {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 4px;
+  border-radius: 12px;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.irodori-result-count {
+  padding: 0 16px 6px;
+  font-size: 12px;
+  opacity: 0.55;
 }
