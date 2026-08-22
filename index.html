@@ -48,6 +48,11 @@
             <h3>IRODORI</h3>
             <p>Kosakata buku Irodori</p>
           </div>
+          <div class="menu-card" onclick="goTo('percakapan')" role="button" tabindex="0" aria-label="Percakapan">
+            <div class="icon-wrap"><i class="fas fa-comments"></i></div>
+            <h3>Percakapan</h3>
+            <p>Dialog dalam IRODORI</p>
+          </div>
         </div>
       </section>
 
@@ -150,6 +155,36 @@
         <div class="irodori-result-count" id="irodoriResultCount"></div>
         <div class="word-list" id="irodoriList" role="list"></div>
       </section>
+            <!-- ===== PERCAKAPAN ===== -->
+      <section id="page-percakapan" class="page">
+        <div class="sticky-header" id="percakapanSticky">
+          <div class="top-bar">
+            <button class="back-btn" onclick="goTo('home')" aria-label="Kembali"><i class="fas fa-arrow-left"></i></button>
+            <span class="page-title">Percakapan</span>
+          </div>
+        </div>
+
+        <!-- Tampilan daftar topik -->
+        <div id="percakapanListView">
+          <div class="percakapan-list" id="percakapanList" role="list"></div>
+        </div>
+
+        <!-- Tampilan detail: dialog + audio (hidden sampai sebuah topik diklik) -->
+        <div id="percakapanDetailView" style="display: none">
+          <div class="percakapan-detail-header">
+            <button type="button" class="back-btn" id="percakapanBackBtn" aria-label="Kembali ke daftar topik">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <span class="page-title" id="percakapanDetailTitle">Percakapan</span>
+          </div>
+          <div class="percakapan-dialog" id="percakapanDialog"></div>
+          <div class="percakapan-arti" id="percakapanArti"></div>
+          <div class="percakapan-audio-wrap">
+            <audio id="percakapanAudio" controls preload="none" style="width: 100%"></audio>
+          </div>
+        </div>
+      </section>
+      
     </div>
 
     <!-- NAVIGASI -->
@@ -163,6 +198,7 @@
       </div>
     </nav>
     <script src="data/datasoal.js"></script>
+    <script src="data/datapercakapan.js"></script>
     <script src="data/datairodori.js"></script>
     <script src="js/script.js"></script>
   </body>
