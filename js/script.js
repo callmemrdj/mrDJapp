@@ -579,8 +579,7 @@ const PercakapanModule = (function () {
   function renderDialogBubble(line) {
     const sideClass = line.speaker === 'A' ? 'is-a' : 'is-b';
     return `
-      <div class="percakapan-bubble-row ${sideClass}">
-        <span class="percakapan-bubble-speaker">${line.speaker}</span>
+      <div class="percakapan-bubble-row ${sideClass}">        
         <div class="percakapan-bubble">${line.text}</div>
       </div>`;
   }
