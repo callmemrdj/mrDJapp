@@ -23,6 +23,9 @@ function goTo(page) {
   if (target) target.classList.add('active');
   currentPage = page;
 
+  // cegah pull-to-refresh browser di semua halaman KECUALI home
+  document.body.classList.toggle('no-ptr', page !== 'home');
+
   const nav = document.getElementById('bottom-nav');
   if (page === 'home') {
     nav.classList.remove('show');
