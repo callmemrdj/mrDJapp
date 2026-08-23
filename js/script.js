@@ -641,6 +641,43 @@ const PercakapanModule = (function () {
 function initPercakapan() {
   PercakapanModule.init();
 }
+// ============================================================
+// FALLBACK: blokir pull-to-refresh via touchmove untuk browser/
+// WebView yang belum dukung CSS overscroll-behavior (mis. Safari
+// iOS lama). Hanya aktif kalau halaman TIDAK di paling atas (top)
+// DAN halaman bukan 'home', supaya scroll normal tetap jalan.
+// ============================================================
+(function () {
+  let touchStartY = 0;
+ 
+  document.addEventListener(
+    'touchstart',
+    (e) => {
+      touchStartY = e.touches[0].clientY;
+    },
+    { passive: true }
+  );
+ 
+  document.addEventListener(
+    'touchmove',
+    (e) => {
+      if (currentPage === 'home') return; // halaman depan: biarkan default
+ 
+      const scrollEl = document.getElementById('page-' + currentPage) || document.documentElement;
+      const isAtTop = scrollEl.scrollTop <= 0 && window.scrollY <= 0;
+      const isPullingDown = e.touches[0].clientY > touchStartY;
+ 
+      // hanya cegah default kalau posisi sudah di paling atas dan user menarik ke bawah
+      // (ini yang memicu pull-to-refresh browser)
+      if (isAtTop && isPullingDown) {
+        e.preventDefault();
+      }
+    },
+    { passive: false }
+  );
+})();
+
+
 
 /* 键盘可访问性 */
 document.querySelectorAll('.menu-card').forEach((card) => {
