@@ -20,7 +20,7 @@ const percakapanData = [
   },
   {
     id: 2,
-    topik: '<ruby>時<rt>じ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ますか',
+    topik: '<ruby>何時<rt>なんじ</rt></ruby>来<rt>き</rt></ruby>ますか',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/07/Y_[07-02]_kiku2.mp3',
     dialog: [
       { speaker: 'A', text: 'では、<ruby>金曜日<rt>きんようび</rt></ruby>の10<ruby>時<rt>じ</rt></ruby>に<ruby>来<rt>き</rt></ruby>てください。' },
