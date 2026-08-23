@@ -31,7 +31,12 @@
 html {
   font-size: 16px;
   -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: auto;
 }
+body.no-ptr {
+        overscroll-behavior-y: contain;
+        overscroll-behavior-x: contain;
+      }
 body {
   font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
   background: var(--bg);
