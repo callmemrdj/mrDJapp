@@ -105,6 +105,16 @@ const percakapanData = [
       { speaker: 'Ishi', text: '8<ruby>歳<rt>さい</rt></ruby>と5<ruby>歳<rt>さい</rt></ruby>。<ruby>子<rt>こ</rt></ruby>どもとキャッチボール、<ruby>楽<rt>たの</rt></ruby>しいよ。' },
     ],
     arti: 'A: Fon, kamu biasanya melakukan apa di hari libur? <br/>B: Saya biasanya bermain bulu tangkis dengan teman-teman. Saya sangat menyukai olahraga. <br/>C: Wah, bulu tangkis. Di mana? <br/>B: Saya bermain di gedung olahraga kota. Setiap minggu, saya bermain bulu tangkis sampai sore, dan setelah itu, kami semua makan bersama. Benar-benar menyenangkan. <br/>A: Bagus juga ya. <br/>C: Kalau kamu, Eko? <br/>A: Saya, di hari libur, biasanya menonton anime di rumah. <br/>B: Kamu tidak pergi ke mana-mana? <br/>A: Saya tidak terlalu suka pergi keluar. Saya lebih suka bersantai di rumah. <br/>C: Anime seperti apa yang kamu tonton? <br/>A: Anime Jepang. Terutama, saya suka film-film Ghibli. <br/>B: Oh, begitu. <br/>A: Kalau kamu, Ishikawa, biasanya melakukan apa di hari libur? <br/>C: Hmm, saya ke taman bersama anak-anak. <br/>B: Oh, begitu. Kalian melakukan apa di taman? <br/>C: Bermain lempar tangkap bola. Saya suka baseball, lho. Baik menonton maupun ',
-  },    
+  },
+  {
+   id: 7,
+    topik: 'どの<ruby>季節<rt>きせつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか',
+    tema: 'Kamu suka musim apa?',
+    audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/03/Y_[03-12]_kaiwa.mp3',
+    dialog: [
+        { speaker: '', text: 'Kawano：アラムさん、<ruby>好<rt>す</rt></ruby>きな<ruby>季節<rt>きせつ</rt></ruby>はいつですか？<br/>Aram：そうですね。<ruby>秋<rt>あき</rt></ruby>がいちばん<ruby>好<rt>す</rt></ruby>きです。<br/>Kawano：どうしてですか？<br/>Aram：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>苦手<rt>にがて</rt></ruby>ですから。<ruby>秋<rt>あき</rt></ruby>はすずしいですから<ruby>好<rt>す</rt></ruby>きです。<ruby>メリ<rt>―</rt></ruby>さんは？<br/>Meri：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>大好<rt>だいす</rt></ruby>きですから、<ruby>夏<rt>なつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。<br/>Kawano：へー、そうですか。<br/>Meri：<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>ぶのも<ruby>楽<rt>たの</rt></ruby>しいです。<ruby>川野<rt>かわの</rt></ruby>さんは？どの<ruby>季節<rt>きせつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか？<br/>Kawano：<ruby>私<rt>わたし</rt></ruby>も<ruby>秋<rt>あき</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですね。<br/>Aram：どうしてですか？<br/>Kawano：もみじの<ruby>景色<rt>けしき</rt></ruby>がきれいですから。<br/>Aram：そうですね。<br/>Kawano：それに、<ruby>果物<rt>くだもの</rt></ruby>もおいしいですよね。ぶどうとか<ruby>梨<rt>なし</rt></ruby>とか。' },
+  ]
+    arti:'Kawano: Aram, musim apa yang paling kamu sukai? <br/>Aram: Hmm, sepertinya musim gugur. Saya paling suka musim gugur. <br/>Kawano: Kenapa begitu? <br/>Aram: Karena saya tidak terlalu tahan dengan udara panas. Saya suka musim gugur karena udaranya sejuk. Kalau kamu, Meri? <br/>Meri: Saya sangat suka udara panas, jadi saya suka musim panas. <br/>Kawano: Oh, begitu ya. <br/>Meri: Bermain di pantai atau di pegunungan juga menyenangkan. Kalau kamu, Kawano? Kamu suka musim apa? <br/>Kawano: Saya juga suka musim gugur. <br/>Aram: Kenapa begitu? <br/>Kawano: Karena pemandangan daun maple (momiji) sangat indah. <br/>Aram: Benar juga. <br/>Kawano: Selain itu, buah-buahannya juga enak, kan? <br/>Kawano: Seperti anggur dan pir.',
+  },
 ];
 
