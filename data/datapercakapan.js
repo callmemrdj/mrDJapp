@@ -147,9 +147,15 @@ const percakapanData = [
     tema: 'Kota ini bagaimana?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/05/Y_[05-08]_hanasu1.mp3',
     dialog: [
-        { speaker: '', text: '' },
+        {speaker:'A',text:'この町には慣れましたか？'},
+		{speaker:'B',text:'はい、おかげさまで。'},
+		{speaker:'A',text:'どうですか？この町は。'},
+		{speaker:'B',text:'そうですねえ……。にぎやかで、便利です。'},
+		{speaker:'A',text:'そうですか。'},
+		{speaker:'B',text:'でも、緑が少ないです。'},
+
   ],
-    arti:'',
+    arti:'A: Sudah terbiasa dengan kota ini? <br/>B: Ya, berkat semuanya. <br/>A: Gimana Kota ini? <b/>B: Ya..Ramai dan praktis. <br/>A: Oya? <br/>B: Tapi, penghijauannya sedikit',
   },
 	{
    id: 11,
