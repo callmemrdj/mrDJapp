@@ -9,6 +9,7 @@ const percakapanData = [
   {
     id: 1,
     topik: '<ruby>何時<rt>なんじ</rt></ruby>にどこですか',
+    tema: 'Jam berapa, di mana?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/07/Y_[07-01]_kiku1.mp3',
     dialog: [
       { speaker: 'A', text: 'すみません。<ruby>明日<rt>あした</rt></ruby>は<ruby>何時<rt>なんじ</rt></ruby>にどこですか？' },
@@ -21,6 +22,7 @@ const percakapanData = [
   {
     id: 2,
     topik: '<ruby>何時<rt>なんじ</rt></ruby>来<rt>き</rt></ruby>ますか',
+    tema: 'Datang jam berapa?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/07/Y_[07-02]_kiku2.mp3',
     dialog: [
       { speaker: 'A', text: 'では、<ruby>金曜日<rt>きんようび</rt></ruby>の10<ruby>時<rt>じ</rt></ruby>に<ruby>来<rt>き</rt></ruby>てください。' },
@@ -33,6 +35,7 @@ const percakapanData = [
   {
     id: 3,
     topik: '<ruby>何時<rt>なんじ</rt></ruby>にしますか',
+    tema: 'Tentukan jam berapa?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/07/Y_[07-03]_kiku3.mp3',
     dialog: [
       { speaker: 'A', text: '<ruby>明日<rt>あした</rt></ruby>の<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせは、<ruby>何時<rt>なんじ</rt></ruby>にどこにしますか？' },
@@ -45,6 +48,7 @@ const percakapanData = [
   {
     id: 3,
     topik: '<ruby>何時<rt>なんじ</rt></ruby>からですか',
+    tema: '',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/07/Y_[07-04]_kiku4.mp3',
     dialog: [
       { speaker: 'A', text: 'あ のう、 10<ruby>日<rt>とおか</rt></ruby>の イベ ント、 <ruby>何時<rt>なんじ</rt></ruby>からで す か？' },
@@ -57,6 +61,7 @@ const percakapanData = [
   {
     id: 4,
     topik: 'そちらに行きたいんですが、',
+    tema: 'Saya ingin pergi ke...'',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/06/Y_[06-12]_kiku.mp3',
     dialog: [
       { speaker: 'A', text: 'はい。アジア<ruby>食材<rt>しょくざい</rt></ruby>バグースです。' },
@@ -76,26 +81,27 @@ const percakapanData = [
     {
     id: 5,
     topik: '何が好きですか',
+    tema: 'Kamu suka apa?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/02/Y_[02-13]_kaiwa.mp3',
     dialog: [
-      { speaker: 'A', text: 'フオンさんは、<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか？' },
-      { speaker: 'B', text: '<ruby>私<rt>わたし</rt></ruby>は、たいてい<ruby>友<rt>とも</rt></ruby>だちとバドミントンをします。<ruby>私<rt>わたし</rt></ruby>はスポーツが<ruby>大好<rt>だいす</rt></ruby>きです。' },
-      { speaker: 'C', text: 'へえ、バドミントン。どこで？' },
-      { speaker: 'B', text: '<ruby>市<rt>し</rt></ruby>の<ruby>体育館<rt>たいいくかん</rt></ruby>でします。<ruby>毎週<rt>まいしゅう</rt></ruby>、<ruby>夕方<rt>ゆうがた</rt></ruby>までバドミントンをして、そのあと、みんなで<ruby>ご飯<rt>ごはん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しいです。' },
-      { speaker: 'A', text: 'いいですね。' },
-      { speaker: 'C', text: 'エコさんは？' },
-      { speaker: 'A', text: 'ぼくは、<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は、たいてい<ruby>家<rt>いえ</rt></ruby>でアニメを<ruby>見<rt>み</rt></ruby>ます。' },
-      { speaker: 'B', text: 'どこにも<ruby>出<rt>で</rt></ruby>かけませんか？' },
-      { speaker: 'A', text: '<ruby>出<rt>で</rt></ruby>かけるのは、あまり<ruby>好<rt>す</rt></ruby>きじゃありません。うちで、ゆっくりするのが<ruby>好<rt>す</rt></ruby>きです。' },
-      { speaker: 'B', text: 'どんなアニメを<ruby>見<rt>み</rt></ruby>るの？' },
-      { speaker: 'A', text: '<ruby>日本<rt>にほん</rt></ruby>のアニメです。<ruby>特<rt>とく</rt></ruby>に、ジブリの<ruby>映画<rt>えいが</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。' },
-      { speaker: 'B', text: 'そうですか。' },
-      { speaker: 'A', text: '<ruby>石川<rt>いしかわ</rt></ruby>さんは、<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか？' },
-      { speaker: 'C', text: 'うーん、ぼくは、<ruby>子<rt>こ</rt></ruby>どもと<ruby>公園<rt>こうえん</rt></ruby>。' },
-      { speaker: 'B', text: 'そうですか。<ruby>公園<rt>こうえん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしますか？' },
-      { speaker: 'C', text: 'キャッチボール。ぼくは、<ruby>野球<rt>やきゅう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きでね。<ruby>見<rt>み</rt></ruby>るのもするのも。' },
-      { speaker: 'B', text: 'そうですか。お<ruby>子<rt>こ</rt></ruby>さんは<ruby>何歳<rt>なんさい</rt></ruby>ですか？' },
-      { speaker: 'C', text: '8<ruby>歳<rt>さい</rt></ruby>と5<ruby>歳<rt>さい</rt></ruby>。<ruby>子<rt>こ</rt></ruby>どもとキャッチボール、<ruby>楽<rt>たの</rt></ruby>しいよ。' },
+      { speaker: 'Eko', text: 'フオンさんは、<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか？' },
+      { speaker: 'Fon', text: '<ruby>私<rt>わたし</rt></ruby>は、たいてい<ruby>友<rt>とも</rt></ruby>だちとバドミントンをします。<ruby>私<rt>わたし</rt></ruby>はスポーツが<ruby>大好<rt>だいす</rt></ruby>きです。' },
+      { speaker: 'Ishikawa', text: 'へえ、バドミントン。どこで？' },
+      { speaker: 'Fon', text: '<ruby>市<rt>し</rt></ruby>の<ruby>体育館<rt>たいいくかん</rt></ruby>でします。<ruby>毎週<rt>まいしゅう</rt></ruby>、<ruby>夕方<rt>ゆうがた</rt></ruby>までバドミントンをして、そのあと、みんなで<ruby>ご飯<rt>ごはん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しいです。' },
+      { speaker: 'Eko', text: 'いいですね。' },
+      { speaker: 'Ishikawa', text: 'エコさんは？' },
+      { speaker: 'Eko', text: 'ぼくは、<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は、たいてい<ruby>家<rt>いえ</rt></ruby>でアニメを<ruby>見<rt>み</rt></ruby>ます。' },
+      { speaker: 'Fon', text: 'どこにも<ruby>出<rt>で</rt></ruby>かけませんか？' },
+      { speaker: 'Eko', text: '<ruby>出<rt>で</rt></ruby>かけるのは、あまり<ruby>好<rt>す</rt></ruby>きじゃありません。うちで、ゆっくりするのが<ruby>好<rt>す</rt></ruby>きです。' },
+      { speaker: 'Fon', text: 'どんなアニメを<ruby>見<rt>み</rt></ruby>るの？' },
+      { speaker: 'Eko', text: '<ruby>日本<rt>にほん</rt></ruby>のアニメです。<ruby>特<rt>とく</rt></ruby>に、ジブリの<ruby>映画<rt>えいが</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。' },
+      { speaker: 'Fon', text: 'そうですか。' },
+      { speaker: 'Eko', text: '<ruby>石川<rt>いしかわ</rt></ruby>さんは、<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか？' },
+      { speaker: 'Ishikawa', text: 'うーん、ぼくは、<ruby>子<rt>こ</rt></ruby>どもと<ruby>公園<rt>こうえん</rt></ruby>。' },
+      { speaker: 'Fon', text: 'そうですか。<ruby>公園<rt>こうえん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしますか？' },
+      { speaker: 'Ishikawa', text: 'キャッチボール。ぼくは、<ruby>野球<rt>やきゅう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きでね。<ruby>見<rt>み</rt></ruby>るのもするのも。' },
+      { speaker: 'Fon', text: 'そうですか。お<ruby>子<rt>こ</rt></ruby>さんは<ruby>何歳<rt>なんさい</rt></ruby>ですか？' },
+      { speaker: 'Ishikawa', text: '8<ruby>歳<rt>さい</rt></ruby>と5<ruby>歳<rt>さい</rt></ruby>。<ruby>子<rt>こ</rt></ruby>どもとキャッチボール、<ruby>楽<rt>たの</rt></ruby>しいよ。' },
     ],
     arti: 'A: Fon, kamu biasanya melakukan apa di hari libur? <br/>B: Saya biasanya bermain bulu tangkis dengan teman-teman. Saya sangat menyukai olahraga. <br/>C: Wah, bulu tangkis. Di mana? <br/>B: Saya bermain di gedung olahraga kota. Setiap minggu, saya bermain bulu tangkis sampai sore, dan setelah itu, kami semua makan bersama. Benar-benar menyenangkan. <br/>A: Bagus juga ya. <br/>C: Kalau kamu, Eko? <br/>A: Saya, di hari libur, biasanya menonton anime di rumah. <br/>B: Kamu tidak pergi ke mana-mana? <br/>A: Saya tidak terlalu suka pergi keluar. Saya lebih suka bersantai di rumah. <br/>C: Anime seperti apa yang kamu tonton? <br/>A: Anime Jepang. Terutama, saya suka film-film Ghibli. <br/>B: Oh, begitu. <br/>A: Kalau kamu, Ishikawa, biasanya melakukan apa di hari libur? <br/>C: Hmm, saya ke taman bersama anak-anak. <br/>B: Oh, begitu. Kalian melakukan apa di taman? <br/>C: Bermain lempar tangkap bola. Saya suka baseball, lho. Baik menonton maupun ',
   },      
