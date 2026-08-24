@@ -116,5 +116,15 @@ const percakapanData = [
   ],
     arti:'Kawano: Aram, musim apa yang paling kamu sukai? <br/>Aram: Hmm, sepertinya musim gugur. Saya paling suka musim gugur. <br/>Kawano: Kenapa begitu? <br/>Aram: Karena saya tidak terlalu tahan dengan udara panas. Saya suka musim gugur karena udaranya sejuk. Kalau kamu, Meri? <br/>Meri: Saya sangat suka udara panas, jadi saya suka musim panas. <br/>Kawano: Oh, begitu ya. <br/>Meri: Bermain di pantai atau di pegunungan juga menyenangkan. Kalau kamu, Kawano? Kamu suka musim apa? <br/>Kawano: Saya juga suka musim gugur. <br/>Aram: Kenapa begitu? <br/>Kawano: Karena pemandangan daun maple (momiji) sangat indah. <br/>Aram: Benar juga. <br/>Kawano: Selain itu, buah-buahannya juga enak, kan? <br/>Kawano: Seperti anggur dan pir.',
   },
+  {
+   id: 8,
+    topik: '<ruby>明日<rt>あした</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れるでしょう。',
+    tema: 'Ashita wa hareru deshou',
+    audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/04/Y_[04-11]_kiku.mp3',
+    dialog: [
+        { speaker: '', text: '<ruby>今日<rt>きょう</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>の1<ruby>日<rt>いちにち</rt></ruby>でした。<ruby>今<rt>いま</rt></ruby>も<ruby>少<rt>すこ</rt></ruby>し<ruby>降<rt>ふ</rt></ruby>っています。<br/>でも、この<ruby>雨<rt>あめ</rt></ruby>は<ruby>夜中<rt>よなか</rt></ruby>にはやんで、<ruby>明日<rt>あした</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れるでしょう。<br/>ただ、<ruby>明日<rt>あした</rt></ruby>は1<ruby>日<rt>いちにち</rt></ruby>、<ruby>風<rt>かぜ</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>くなります。<br/><ruby>寒<rt>さむ</rt></ruby>い1<ruby>日<rt>いちにち</rt></ruby>になります。<ruby>暖<rt>あたた</rt></ruby>かい<ruby>服装<rt>ふくそう</rt></ruby>でお<ruby>出<rt>で</rt></ruby>かけください。' },
+  ],
+    arti:'Hari ini hujan seharian. Saat ini hujan masih turun sedikit.<br/>Namun, hujan ini akan berhenti pada tengah malam, dan besok kemungkinan akan cerah. <br/>Hanya saja, besok angin akan bertiup kencang sepanjang hari. <br/>Besok akan menjadi hari yang dingin. Mohon gunakan pakaian yang hangat saat bepergian.',
+  },
 ];
 
