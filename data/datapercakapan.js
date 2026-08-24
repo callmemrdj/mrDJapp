@@ -114,7 +114,7 @@ const percakapanData = [
     dialog: [
         { speaker: '', text: 'A：アラムさん、<ruby>好<rt>す</rt></ruby>きな<ruby>季節<rt>きせつ</rt></ruby>はいつですか？<br/>B：そうですね。<ruby>秋<rt>あき</rt></ruby>がいちばん<ruby>好<rt>す</rt></ruby>きです。<br/>A：どうしてですか？<br/>B：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>苦手<rt>にがて</rt></ruby>ですから。<ruby>秋<rt>あき</rt></ruby>はすずしいですから<ruby>好<rt>す</rt></ruby>きです。<ruby>メリ<rt>―</rt></ruby>さんは？<br/>C：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>大好<rt>だいす</rt></ruby>きですから、<ruby>夏<rt>なつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。<br/>A：へー、そうですか。<br/>C：<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>ぶのも<ruby>楽<rt>たの</rt></ruby>しいです。<ruby>川野<rt>かわの</rt></ruby>さんは？どの<ruby>季節<rt>きせつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか？<br/>A：<ruby>私<rt>わたし</rt></ruby>も<ruby>秋<rt>あき</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですね。<br/>B：どうしてですか？<br/>A：もみじの<ruby>景色<rt>けしき</rt></ruby>がきれいですから。<br/>B：そうですね。<br/>A：それに、<ruby>果物<rt>くだもの</rt></ruby>もおいしいですよね。ぶどうとか<ruby>梨<rt>なし</rt></ruby>とか。' },
   ],
-    arti:'Kawano: Aram, musim apa yang paling kamu sukai? <br/>Aram: Hmm, sepertinya musim gugur. Saya paling suka musim gugur. <br/>Kawano: Kenapa begitu? <br/>Aram: Karena saya tidak terlalu tahan dengan udara panas. Saya suka musim gugur karena udaranya sejuk. Kalau kamu, Meri? <br/>Meri: Saya sangat suka udara panas, jadi saya suka musim panas. <br/>Kawano: Oh, begitu ya. <br/>Meri: Bermain di pantai atau di pegunungan juga menyenangkan. Kalau kamu, Kawano? Kamu suka musim apa? <br/>Kawano: Saya juga suka musim gugur. <br/>Aram: Kenapa begitu? <br/>Kawano: Karena pemandangan daun maple (momiji) sangat indah. <br/>Aram: Benar juga. <br/>Kawano: Selain itu, buah-buahannya juga enak, kan? <br/>Kawano: Seperti anggur dan pir.',
+    arti:'<b>Kawano:</b> Aram, musim apa yang paling kamu sukai? <br/><b>Aram:</b> Hmm, sepertinya musim gugur. Saya paling suka musim gugur. <br/><b>Kawano:</b> Kenapa begitu? <br/><b>Aram:</b> Karena saya tidak terlalu tahan dengan udara panas. Saya suka musim gugur karena udaranya sejuk. Kalau kamu, Meri? <br/><b>Meri:</b> Saya sangat suka udara panas, jadi saya suka musim panas. <br/><b>Kawano:</b> Oh, begitu ya. <br/><b>Meri:</b> Bermain di pantai atau di pegunungan juga menyenangkan. Kalau kamu, Kawano? Kamu suka musim apa? <br/><b>Kawano:</b> Saya juga suka musim gugur. <br/><b>Aram:</b> Kenapa begitu? <br/><b>Kawano:</b> Karena pemandangan daun maple (momiji) sangat indah. <br/<b>Aram:</b> Benar juga. <br/><b>Kawano:</b> Selain itu, buah-buahannya juga enak, kan? <br/><b>Kawano:</b> Seperti anggur dan pir.',
   },
   {
    id: 8,
@@ -155,7 +155,7 @@ const percakapanData = [
 		{speaker:'B',text:'でも、緑が少ないです。'},
 
   ],
-    arti:'A: Sudah terbiasa dengan kota ini? <br/>B: Ya, berkat semuanya. <br/>A: Gimana Kota ini? <b/>B: Ya..Ramai dan praktis. <br/>A: Oya? <br/>B: Tapi, penghijauannya sedikit',
+    arti:'A: Sudah terbiasa dengan kota ini? <br/>B: Ya, berkat semuanya. <br/>A: Gimana Kota ini? <br/>B: Ya..Ramai dan praktis. <br/>A: Oya? <br/>B: Tapi, penghijauannya sedikit',
   },
 	{
    id: 11,
