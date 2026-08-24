@@ -112,7 +112,7 @@ const percakapanData = [
     tema: 'Kamu suka musim apa?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/03/Y_[03-12]_kaiwa.mp3',
     dialog: [
-        { speaker: '', text: 'Kawano：アラムさん、<ruby>好<rt>す</rt></ruby>きな<ruby>季節<rt>きせつ</rt></ruby>はいつですか？<br/>Aram：そうですね。<ruby>秋<rt>あき</rt></ruby>がいちばん<ruby>好<rt>す</rt></ruby>きです。<br/>Kawano：どうしてですか？<br/>Aram：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>苦手<rt>にがて</rt></ruby>ですから。<ruby>秋<rt>あき</rt></ruby>はすずしいですから<ruby>好<rt>す</rt></ruby>きです。<ruby>メリ<rt>―</rt></ruby>さんは？<br/>Meri：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>大好<rt>だいす</rt></ruby>きですから、<ruby>夏<rt>なつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。<br/>Kawano：へー、そうですか。<br/>Meri：<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>ぶのも<ruby>楽<rt>たの</rt></ruby>しいです。<ruby>川野<rt>かわの</rt></ruby>さんは？どの<ruby>季節<rt>きせつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか？<br/>Kawano：<ruby>私<rt>わたし</rt></ruby>も<ruby>秋<rt>あき</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですね。<br/>Aram：どうしてですか？<br/>Kawano：もみじの<ruby>景色<rt>けしき</rt></ruby>がきれいですから。<br/>Aram：そうですね。<br/>Kawano：それに、<ruby>果物<rt>くだもの</rt></ruby>もおいしいですよね。ぶどうとか<ruby>梨<rt>なし</rt></ruby>とか。' },
+        { speaker: '', text: 'A：アラムさん、<ruby>好<rt>す</rt></ruby>きな<ruby>季節<rt>きせつ</rt></ruby>はいつですか？<br/>B：そうですね。<ruby>秋<rt>あき</rt></ruby>がいちばん<ruby>好<rt>す</rt></ruby>きです。<br/>A：どうしてですか？<br/>B：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>苦手<rt>にがて</rt></ruby>ですから。<ruby>秋<rt>あき</rt></ruby>はすずしいですから<ruby>好<rt>す</rt></ruby>きです。<ruby>メリ<rt>―</rt></ruby>さんは？<br/>C：<ruby>私<rt>わたし</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いのが<ruby>大好<rt>だいす</rt></ruby>きですから、<ruby>夏<rt>なつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。<br/>A：へー、そうですか。<br/>C：<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>ぶのも<ruby>楽<rt>たの</rt></ruby>しいです。<ruby>川野<rt>かわの</rt></ruby>さんは？どの<ruby>季節<rt>きせつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか？<br/>A：<ruby>私<rt>わたし</rt></ruby>も<ruby>秋<rt>あき</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですね。<br/>B：どうしてですか？<br/>A：もみじの<ruby>景色<rt>けしき</rt></ruby>がきれいですから。<br/>B：そうですね。<br/>A：それに、<ruby>果物<rt>くだもの</rt></ruby>もおいしいですよね。ぶどうとか<ruby>梨<rt>なし</rt></ruby>とか。' },
   ],
     arti:'Kawano: Aram, musim apa yang paling kamu sukai? <br/>Aram: Hmm, sepertinya musim gugur. Saya paling suka musim gugur. <br/>Kawano: Kenapa begitu? <br/>Aram: Karena saya tidak terlalu tahan dengan udara panas. Saya suka musim gugur karena udaranya sejuk. Kalau kamu, Meri? <br/>Meri: Saya sangat suka udara panas, jadi saya suka musim panas. <br/>Kawano: Oh, begitu ya. <br/>Meri: Bermain di pantai atau di pegunungan juga menyenangkan. Kalau kamu, Kawano? Kamu suka musim apa? <br/>Kawano: Saya juga suka musim gugur. <br/>Aram: Kenapa begitu? <br/>Kawano: Karena pemandangan daun maple (momiji) sangat indah. <br/>Aram: Benar juga. <br/>Kawano: Selain itu, buah-buahannya juga enak, kan? <br/>Kawano: Seperti anggur dan pir.',
   },
@@ -125,6 +125,21 @@ const percakapanData = [
         { speaker: '', text: '<ruby>今日<rt>きょう</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>の1<ruby>日<rt>いちにち</rt></ruby>でした。<ruby>今<rt>いま</rt></ruby>も<ruby>少<rt>すこ</rt></ruby>し<ruby>降<rt>ふ</rt></ruby>っています。<br/>でも、この<ruby>雨<rt>あめ</rt></ruby>は<ruby>夜中<rt>よなか</rt></ruby>にはやんで、<ruby>明日<rt>あした</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れるでしょう。<br/>ただ、<ruby>明日<rt>あした</rt></ruby>は1<ruby>日<rt>いちにち</rt></ruby>、<ruby>風<rt>かぜ</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>くなります。<br/><ruby>寒<rt>さむ</rt></ruby>い1<ruby>日<rt>いちにち</rt></ruby>になります。<ruby>暖<rt>あたた</rt></ruby>かい<ruby>服装<rt>ふくそう</rt></ruby>でお<ruby>出<rt>で</rt></ruby>かけください。' },
   ],
     arti:'Hari ini hujan seharian. Saat ini hujan masih turun sedikit.<br/>Namun, hujan ini akan berhenti pada tengah malam, dan besok kemungkinan akan cerah. <br/>Hanya saja, besok angin akan bertiup kencang sepanjang hari. <br/>Besok akan menjadi hari yang dingin. Mohon gunakan pakaian yang hangat saat bepergian.',
+  },
+    {
+   id: 9,
+    topik: '<ruby>昨日はすごい<ruby>雨<rt>あめ</rt></ruby>でしたね',
+    tema: 'Kemarin hujan lebat',
+    audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/04/Y_[04-10]_hanasu3.mp3',
+    dialog: [
+        {speaker:'Yumiko',text:'おはようございます。'},
+	{speaker:'Yamada',text:'おはようございます。'},
+	{speaker:'Yumiko',text:'<ruby>昨日はすごい<ruby>雨<rt>あめ</rt></ruby>でしたね。'},
+	{speaker:'Yamada',text:'そうですね。すごい雨でしたね。'},
+	{speaker:'Yumiko',text:'<ruby>風<rt>かぜ</rt></ruby>もすごかったですね。'},
+	{speaker:'Yamada',text:'<ruby>本当<rt>ほんとう</rt></ruby>ですね。'},
+  ],
+    arti:'A: Selamat pagi.<br/>B: Selamat pagi.<br/>A: Hujan kemarin deras sekali, ya.<br/>B: Iya, benar. Hujan kemarin deras sekali, ya.<br/>A: Anginnya juga kencang sekali, ya.<br/>B: Memang benar.',
   },
 ];
 
