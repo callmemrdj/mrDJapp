@@ -48,7 +48,7 @@ const percakapanData = [
   {
     id: 3,
     topik: '<ruby>何時<rt>なんじ</rt></ruby>からですか',
-    tema: '',
+    tema: 'Dari jam berapa?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/07/Y_[07-04]_kiku4.mp3',
     dialog: [
       { speaker: 'A', text: 'あ のう、 10<ruby>日<rt>とおか</rt></ruby>の イベ ント、 <ruby>何時<rt>なんじ</rt></ruby>からで す か？' },
