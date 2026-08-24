@@ -141,5 +141,115 @@ const percakapanData = [
   ],
     arti:'A: Selamat pagi.<br/>B: Selamat pagi.<br/>A: Hujan kemarin deras sekali, ya.<br/>B: Iya, benar. Hujan kemarin deras sekali, ya.<br/>A: Anginnya juga kencang sekali, ya.<br/>B: Memang benar.',
   },
+  {
+   id: 10,
+    topik: 'この町はどうですか',
+    tema: 'Kota ini bagaimana?',
+    audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/05/Y_[05-08]_hanasu1.mp3',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 11,
+    topik: '今帰る',
+    tema: 'Apakah pulang?',
+    audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/06/Y_[06-13]_kaiwa.mp3',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 12,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 13,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 14,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 15,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 16,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 17,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 18,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 19,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
+	{
+   id: 20,
+    topik: '',
+    tema: '',
+    audio: '',
+    dialog: [
+        { speaker: '', text: '' },
+  ],
+    arti:'',
+  },
 ];
 
