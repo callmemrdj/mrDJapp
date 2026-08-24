@@ -46,7 +46,7 @@ const percakapanData = [
     arti: 'A: Untuk pertemuan besok, jam berapa dan di mana kita akan bertemu?<br/>B: Kalau begitu, bagaimana kalau jam 6.30 di pintu tiket (gerbang) stasiun?<br/>A: Ya. Jam 6.30 di stasiun, ya.<br/>B: Kalau begitu, sampai jumpa.',
   },
   {
-    id: 3,
+    id: 4,
     topik: '<ruby>何時<rt>なんじ</rt></ruby>からですか',
     tema: 'Dari jam berapa?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/07/Y_[07-04]_kiku4.mp3',
@@ -59,7 +59,7 @@ const percakapanData = [
     arti: 'A: Mmm, acara tanggal sepuluh, dari jam berapa?. <br/>B: Mulai jam 5, tapi Karyawan datanglah 30 menit sebelumnya. <br/>B: Hee..Oke, setengah lima ya, saya faham. <br/>B: Ok, ditunggu ya.',
   },
   {
-    id: 4,
+    id: 5,
     topik: 'そちらに行きたいんですが、',
     tema: 'Saya ingin pergi ke...'',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/06/Y_[06-12]_kiku.mp3',
@@ -79,7 +79,7 @@ const percakapanData = [
     arti: 'A: Ya. Ini adalah Toko Bahan Makanan Asia "Bagus". <br/>B: Permisi. Saya ingin pergi ke sana, bagaimana cara mencapainya? Saat ini saya berada di pintu keluar utara Stasiun Sakura. <br/>A: Pintu keluar utara stasiun, ya. Seberangi jalan di depan stasiun, lalu jalan lurus melalui jalan di antara bank dan minimarket. <br/>B: Ya. <br/>A: Kemudian, belok kanan di lampu lalu lintas pertama. <br/>B: Belok kanan, ya. <br/>A: Ya. Jalan lurus di jalan tersebut, lalu belok kiri di persimpangan kedua. <br/>B: Ya. <br/>A: Nanti Anda akan melihat sebuah gedung berwarna hitam. Tokonya berada tepat di sebelah gedung tersebut. <br/>B: Di sebelah gedung berwarna hitam, ya. Mengerti. Terima kasih banyak. <br/>A: Kami menantikan kedatangan Anda.',
   },
     {
-    id: 5,
+    id: 6,
     topik: '何が好きですか',
     tema: 'Kamu suka apa?',
     audio: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/audio/02/Y_[02-13]_kaiwa.mp3',
