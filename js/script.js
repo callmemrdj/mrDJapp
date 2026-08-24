@@ -563,8 +563,8 @@ const PercakapanModule = (function () {
         <div class="percakapan-topic-card" data-id="${item.id}" role="button" tabindex="0">
           <div class="percakapan-topic-icon"><i class="fas fa-comments"></i></div>
           <div class="percakapan-topic-info">
-            <div class="percakapan-topic-title">${item.topik}</div>
-            <div class="percakapan-topic-tema">${item.tema}</div>
+            <div class="percakapan-topic-title">${item.topik}</div>  
+            <div class="percakapan-topic-tema">${item.tema}</div>    
             <div class="percakapan-topic-sub">${item.dialog.length} baris percakapan</div>            
           </div>
           <i class="fas fa-chevron-right percakapan-topic-arrow"></i>
@@ -578,19 +578,33 @@ const PercakapanModule = (function () {
   }
 
   function renderDialogBubble(line) {
-    const sideClass = line.speaker === 'A' ? 'is-a' : 'is-b';
-   //const sideClass = `is-${line.speaker.toLowerCase().replace(/\s+/g, '-')}`;
+    //const sideClass = line.speaker === 'A' ? 'is-a' : 'is-b';
+    //const sideClass = `is-speaker-${line.speaker.toLowerCase()}`;
+    const sideClass = `is-${line.speaker.toLowerCase().replace(/\s+/g, '-')}`;
     return `
-      <div class="percakapan-bubble-row ${sideClass}">    
+      <div class="percakapan-bubble-row ${sideClass}">        
+        <span class="percakapan-bubble-speaker">${line.speaker}</span>
+        <div class="percakapan-bubble">${line.text}</div>        
+      </div>`;
+  }
+  /*
+  function renderDialogBubble(line) {
+    const sideClass = line.speaker === 'A' ? 'is-a' : 'is-b';
+    return `
+      <div class="percakapan-bubble-row ${sideClass}">
         <span class="percakapan-bubble-speaker">${line.speaker}</span>
         <div class="percakapan-bubble">${line.text}</div>
       </div>`;
-  }
+  }*/
 
   function showDetail(id) {
     const topic = percakapanData.find((t) => t.id === id);
     if (!topic) return;
 
+    // topikRuby (opsional): HTML <ruby> mentah, hanya dipakai kalau ada.
+    // Kalau tidak ada, topik biasa tetap di-escape dulu -> aman, perilaku lama tidak berubah.
+    //titleEl.innerHTML = topic.topikRuby ? topic.topikRuby : escapeHtml(topic.topik);
+    //titleEl.textContent = topic.topik;
     temaEl.textContent = topic.tema;
     dialogEl.innerHTML = topic.dialog.map(renderDialogBubble).join('');
     artiEl.innerHTML = topic.arti || '';
@@ -644,6 +658,7 @@ const PercakapanModule = (function () {
 function initPercakapan() {
   PercakapanModule.init();
 }
+
 // ============================================================
 // FALLBACK: blokir pull-to-refresh via touchmove untuk browser/
 // WebView yang belum dukung CSS overscroll-behavior (mis. Safari
