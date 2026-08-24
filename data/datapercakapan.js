@@ -5,7 +5,7 @@
 //  - dialog  : array baris percakapan { speaker: 'A' | 'B', text: '...' }
 // Tinggal tambah objek baru dengan format yang sama untuk topik lain.
 // ============================================================
-/*
+
 const percakapanData = [
   {
     id: 1,
@@ -79,6 +79,8 @@ const percakapanData = [
     ],
     arti: 'A: Ya. Ini adalah Toko Bahan Makanan Asia "Bagus". <br/>B: Permisi. Saya ingin pergi ke sana, bagaimana cara mencapainya? Saat ini saya berada di pintu keluar utara Stasiun Sakura. <br/>A: Pintu keluar utara stasiun, ya. Seberangi jalan di depan stasiun, lalu jalan lurus melalui jalan di antara bank dan minimarket. <br/>B: Ya. <br/>A: Kemudian, belok kanan di lampu lalu lintas pertama. <br/>B: Belok kanan, ya. <br/>A: Ya. Jalan lurus di jalan tersebut, lalu belok kiri di persimpangan kedua. <br/>B: Ya. <br/>A: Nanti Anda akan melihat sebuah gedung berwarna hitam. Tokonya berada tepat di sebelah gedung tersebut. <br/>B: Di sebelah gedung berwarna hitam, ya. Mengerti. Terima kasih banyak. <br/>A: Kami menantikan kedatangan Anda.',
   },
+  ];
+  /*
     {
     id: 6,
     topik: '何が好きですか',
@@ -107,7 +109,7 @@ const percakapanData = [
     arti: 'A: Fon, kamu biasanya melakukan apa di hari libur? <br/>B: Saya biasanya bermain bulu tangkis dengan teman-teman. Saya sangat menyukai olahraga. <br/>C: Wah, bulu tangkis. Di mana? <br/>B: Saya bermain di gedung olahraga kota. Setiap minggu, saya bermain bulu tangkis sampai sore, dan setelah itu, kami semua makan bersama. Benar-benar menyenangkan. <br/>A: Bagus juga ya. <br/>C: Kalau kamu, Eko? <br/>A: Saya, di hari libur, biasanya menonton anime di rumah. <br/>B: Kamu tidak pergi ke mana-mana? <br/>A: Saya tidak terlalu suka pergi keluar. Saya lebih suka bersantai di rumah. <br/>C: Anime seperti apa yang kamu tonton? <br/>A: Anime Jepang. Terutama, saya suka film-film Ghibli. <br/>B: Oh, begitu. <br/>A: Kalau kamu, Ishikawa, biasanya melakukan apa di hari libur? <br/>C: Hmm, saya ke taman bersama anak-anak. <br/>B: Oh, begitu. Kalian melakukan apa di taman? <br/>C: Bermain lempar tangkap bola. Saya suka baseball, lho. Baik menonton maupun ',
   },      
 ];
-*/
+
 
 const percakapanData = [
   {
@@ -236,4 +238,4 @@ const percakapanData = [
     ],
     arti: 'A: Fon, kamu biasanya melakukan apa di hari libur? <br/>B: Saya biasanya bermain bulu tangkis dengan teman-teman. Saya sangat menyukai olahraga. <br/>C: Wah, bulu tangkis. Di mana? <br/>B: Saya bermain di gedung olahraga kota. Setiap minggu, saya bermain bulu tangkis sampai sore, dan setelah itu, kami semua makan bersama. Benar-benar menyenangkan. <br/>A: Bagus juga ya. <br/>C: Kalau kamu, Eko? <br/>A: Saya, di hari libur, biasanya menonton anime di rumah. <br/>B: Kamu tidak pergi ke mana-mana? <br/>A: Saya tidak terlalu suka pergi keluar. Saya lebih suka bersantai di rumah. <br/>C: Anime seperti apa yang kamu tonton? <br/>A: Anime Jepang. Terutama, saya suka film-film Ghibli. <br/>B: Oh, begitu. <br/>A: Kalau kamu, Ishikawa, biasanya melakukan apa di hari libur? <br/>C: Hmm, saya ke taman bersama anak-anak. <br/>B: Oh, begitu. Kalian melakukan apa di taman? <br/>C: Bermain lempar tangkap bola. Saya suka baseball, lho. Baik menonton maupun ',
   }, 
-];
+];*/
