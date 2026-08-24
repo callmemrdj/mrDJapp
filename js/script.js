@@ -553,7 +553,7 @@ function initIrodorigoi() {
 // HARUS dimuat SEBELUM app.js di index.html.
 // ============================================================
 const PercakapanModule = (function () {
-  let listViewEl, detailViewEl, listEl, titleEl, dialogEl, audioEl;
+  let listViewEl, detailViewEl, listEl, temaEl, titleEl, dialogEl, audioEl;
   let isSetup = false;
 
   function renderTopicList() {
@@ -564,6 +564,7 @@ const PercakapanModule = (function () {
           <div class="percakapan-topic-icon"><i class="fas fa-comments"></i></div>
           <div class="percakapan-topic-info">
             <div class="percakapan-topic-title">${item.topik}</div>
+            <div class="percakapan-topic-tema">${item.tema}</div>
             <div class="percakapan-topic-sub">${item.dialog.length} baris percakapan</div>            
           </div>
           <i class="fas fa-chevron-right percakapan-topic-arrow"></i>
@@ -588,7 +589,7 @@ const PercakapanModule = (function () {
     const topic = percakapanData.find((t) => t.id === id);
     if (!topic) return;
 
-    titleEl.textContent = topic.topik;
+    temaEl.textContent = topic.tema;
     dialogEl.innerHTML = topic.dialog.map(renderDialogBubble).join('');
     artiEl.innerHTML = topic.arti || '';
 
@@ -619,6 +620,7 @@ const PercakapanModule = (function () {
     detailViewEl = document.getElementById('percakapanDetailView');
     listEl = document.getElementById('percakapanList');
     titleEl = document.getElementById('percakapanDetailTitle');
+    temaEl = document.getElementById('percakapanTema');
     dialogEl = document.getElementById('percakapanDialog');
     artiEl = document.getElementById('percakapanArti');
     audioEl = document.getElementById('percakapanAudio');
