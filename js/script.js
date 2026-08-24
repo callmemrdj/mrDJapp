@@ -578,7 +578,8 @@ const PercakapanModule = (function () {
   }
 
   function renderDialogBubble(line) {
-    const sideClass = line.speaker === 'A' ? 'is-a' : 'is-b';
+    //const sideClass = line.speaker === 'A' ? 'is-a' : 'is-b';
+   const sideClass = `is-${line.speaker.toLowerCase().replace(/\s+/g, '-')}`;
     return `
       <div class="percakapan-bubble-row ${sideClass}">        
         <div class="percakapan-bubble">${line.text}</div>
