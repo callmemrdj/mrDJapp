@@ -1225,6 +1225,10 @@ body {
 }
 .percakapan-topic-title {
   font-weight: 700;
+  font-size: 12px;
+}
+.percakapan-topic-tema {
+  font-weight: 700;
   font-size: 15px;
 }
 .percakapan-topic-sub {
@@ -1291,6 +1295,10 @@ body {
   line-height: 1.5;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.percakapan-bubble-row.is-a .percakapan-bubble {
+  background: rgba(108, 92, 231, 0.18);
+  border-color: rgba(70, 69, 69, 0.13));
 }
 .percakapan-bubble-row.is-b .percakapan-bubble {
   background: rgba(108, 92, 231, 0.18);
