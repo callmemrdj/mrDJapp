@@ -1426,7 +1426,7 @@ body {
   flex-shrink: 0;
 }
 .choukai-level-card[data-level="nyumon"] .choukai-level-icon {
-  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  background: linear-gradient(135deg, #f8bff0, #f108de);
   color: #1e40af;
 }
 .choukai-level-card[data-level="shokyu1"] .choukai-level-icon {
@@ -1434,7 +1434,11 @@ body {
   color: #92400e;
 }
 .choukai-level-card[data-level="shokyu2"] .choukai-level-icon {
-  background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+  background: linear-gradient(135deg, #f0f78e, #f9fd06);
+  color: #065f46;
+}
+.choukai-level-card[data-level='shochukyu'] .choukai-level-icon {
+  background: linear-gradient(135deg, #d1fae5, #04b361);
   color: #065f46;
 }
 .choukai-level-info {
