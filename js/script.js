@@ -30,6 +30,13 @@ function goTo(page) {
   if (currentPage === 'percakapan' && page !== 'percakapan' && typeof PercakapanModule !== 'undefined') {
     PercakapanModule.stopAudio();
   }
+  // hentikan audio choukai kalau user pindah dari halaman Choukai Audio
+  if (currentPage === 'choukai-audio' && page !== 'choukai-audio') {
+    document.querySelectorAll('#choukaiAudioList audio').forEach((a) => {
+      a.pause();
+      a.currentTime = 0;
+    });
+  } 
 
   document.querySelectorAll('.page').forEach((p) => p.classList.remove('active'));
   const target = document.getElementById('page-' + page);
@@ -676,9 +683,10 @@ function initPercakapan() {
 function initChoukai() {
   const grid = document.getElementById('choukaiLevelGrid');
   const levels = [
-    { key: 'nyumon', name: '入門 (A0)', desc: 'Starter · 19 Bab', icon: 'fa-seedling', color: '#1e40af' },
-    { key: 'shokyu1', name: '初級1 (A1)', desc: 'Elementary 1 · 18 Bab', icon: 'fa-book-open', color: '#92400e' },
-    { key: 'shokyu2', name: '初級2 (A2)', desc: 'Elementary 2 · 18 Bab', icon: 'fa-graduation-cap', color: '#065f46' },
+    { key: 'nyumon', name: '入門 (A0)', desc: 'Starter · 19 Bab', icon: 'fa-seedling', color: '#ff2dca' },
+    { key: 'shokyu1', name: '初級1 (A1)', desc: 'Elementary 1 · 18 Bab', icon: 'fa-book-open', color: '#fcb111' },
+    { key: 'shokyu2', name: '初級2 (A2)', desc: 'Elementary 2 · 18 Bab', icon: 'fa-graduation-cap', color: '#f9fd0a' },
+    { key: 'shochukyu', name: '初中級 (A2)', desc: 'Elementary 2B · 18 Bab', icon: 'fa-solid fa-graduation-cap', color: '#09eb09' },
   ];
 
   grid.innerHTML = levels.map((lv) => `
