@@ -1578,3 +1578,45 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* ==== Choukai PDF Link ==== */
+.choukai-level-card {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+.choukai-level-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+.choukai-pdf-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(108, 92, 231, 0.06);
+  border: 1.5px dashed rgba(108, 92, 231, 0.3);
+  color: #6c5ce7;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+  width: 100%;
+}
+.choukai-pdf-link i.fa-file-pdf {
+  font-size: 1rem;
+  color: #e74c3c;
+}
+.choukai-pdf-link i.fa-download {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+.choukai-pdf-link:active {
+  background: rgba(108, 92, 231, 0.15);
+  transform: scale(0.98);
+}
