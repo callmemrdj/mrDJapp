@@ -683,23 +683,34 @@ function initPercakapan() {
 function initChoukai() {
   const grid = document.getElementById('choukaiLevelGrid');
   const levels = [
-    { key: 'nyumon', name: '入門 (A0)', desc: 'Starter · 19 Bab', icon: 'fa-seedling', color: '#ff2dca' },
-    { key: 'shokyu1', name: '初級1 (A1)', desc: 'Elementary 1 · 18 Bab', icon: 'fa-book-open', color: '#fcb111' },
-    { key: 'shokyu2', name: '初級2 (A2)', desc: 'Elementary 2 · 18 Bab', icon: 'fa-graduation-cap', color: '#f9fd0a' },
-    { key: 'shochukyu', name: '初中級 (A2)', desc: 'Elementary 2B · 18 Bab', icon: 'fa-solid fa-graduation-cap', color: '#09eb09' },
+    { key: 'nyumon', name: '入門 (A0)', desc: 'Starter · 19 Bab : 151MB', icon: 'fa-seedling', pdf: 'https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_all.pdf' },
+    { key: 'shokyu1', name: '初級1 (A1)', desc: 'Elementary 1 · 18 Bab : 71MB', icon: 'fa-book-open', pdf: 'https://www.irodori.jpf.go.jp/assets/data/elementary01/pdf/Y_all.pdf' },
+    { key: 'shokyu2', name: '初級2 (A2)', desc: 'Elementary 2 · 18 Bab: 106MB', icon: 'fa-graduation-cap', pdf: 'https://www.irodori.jpf.go.jp/assets/data/elementary02/pdf/Z_all.pdf' },
+    { key: 'shochukyu', name: '中級 (A2-B1)', desc: 'Pre-Intermediate: 127MB', icon: 'fa-layer-group', pdf: 'https://www.irodori.jpf.go.jp/assets/data/pre-intermediate/pdf/ZZ_all.pdf' },
   ];
-
-  grid.innerHTML = levels.map((lv) => `
-    <div class="choukai-level-card" data-level="${lv.key}" onclick="selectChoukaiLevel('${lv.key}')" role="button" tabindex="0" aria-label="${lv.name}">
-      <div class="choukai-level-icon"><i class="fas ${lv.icon}"></i></div>
-      <div class="choukai-level-info">
-        <div class="choukai-level-name">${lv.name}</div>
-        <div class="choukai-level-desc">${lv.desc}</div>
+ grid.innerHTML = levels
+    .map(
+      (lv) => `
+    <div class="choukai-level-card" data-level="${lv.key}">
+      <div class="choukai-level-main" onclick="selectChoukaiLevel('${lv.key}')" role="button" tabindex="0" aria-label="${lv.name}">
+        <div class="choukai-level-icon"><i class="fas ${lv.icon}"></i></div>
+        <div class="choukai-level-info">
+          <div class="choukai-level-name">${lv.name}</div>
+          <div class="choukai-level-desc">${lv.desc}</div>
+        </div>
+        <i class="fas fa-chevron-right choukai-level-arrow"></i>
       </div>
-      <i class="fas fa-chevron-right choukai-level-arrow"></i>
+      <a href="${lv.pdf}" target="_blank" rel="noopener" class="choukai-pdf-link" download onclick="event.stopPropagation()">
+        <i class="fas fa-file-pdf"></i>
+        <span>Unduh Buku PDF</span>
+        <i class="fas fa-download"></i>
+      </a>
     </div>
-  `).join('');
-}
+  `,
+    )
+    .join('');
+   
+ }
 
 function selectChoukaiLevel(level) {
   choukaiLevel = level;
